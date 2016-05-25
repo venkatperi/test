@@ -714,7 +714,6 @@ to run.</p>
 
 
 <table width="100%">
-<tr><td colspan="2"></td></tr>
 <tr> <td colspan="2"> <h4>Methods</h4> </td> </tr>
 
 <tr>
@@ -765,7 +764,6 @@ Node&#x27;s ChildProcess.</p>
 
 
 <table width="100%">
-<tr><td colspan="2"></td></tr>
 <tr> <td colspan="2"> <h4>Methods</h4> </td> </tr>
 
 <tr>
@@ -851,7 +849,6 @@ that you have handled this error.</p>
 
 
 <table width="100%">
-<tr><td colspan="2"></td></tr>
 <tr> <td colspan="2"> <h4>Methods</h4> </td> </tr>
 
 <tr>
@@ -918,7 +915,6 @@ at the key path is of type &#x27;color&#x27;. </p>
 
 
 <table width="100%">
-<tr><td colspan="2"></td></tr>
 <tr> <td colspan="2"> <h4>Methods</h4> </td> </tr>
 
 <tr>
@@ -1008,7 +1004,6 @@ atom.commands.add &#x27;atom-text-editor&#x27;,
 
 
 <table width="100%">
-<tr><td colspan="2"></td></tr>
 <tr> <td colspan="2"> <h4>Methods</h4> </td> </tr>
 
 <tr>
@@ -1370,7 +1365,6 @@ config:
 
 
 <table width="100%">
-<tr><td colspan="2"></td></tr>
 <tr> <td colspan="2"> <h4>Methods</h4> </td> </tr>
 
 <tr>
@@ -1674,7 +1668,6 @@ global.</p>
 
 
 <table width="100%">
-<tr><td colspan="2"></td></tr>
 <tr> <td colspan="2"> <h4>Methods</h4> </td> </tr>
 
 <tr>
@@ -1727,7 +1720,6 @@ of a `{DisplayMarker}`. </p>
 
 
 <table width="100%">
-<tr><td colspan="2"></td></tr>
 <tr> <td colspan="2"> <h4>Methods</h4> </td> </tr>
 
 <tr>
@@ -2631,7 +2623,6 @@ the marker. </p>
 
 
 <table width="100%">
-<tr><td colspan="2"></td></tr>
 <tr> <td colspan="2"> <h4>Methods</h4> </td> </tr>
 
 <tr>
@@ -2754,7 +2745,6 @@ global.</p>
 
 
 <table width="100%">
-<tr><td colspan="2"></td></tr>
 <tr> <td colspan="2"> <h4>Methods</h4> </td> </tr>
 
 <tr>
@@ -2810,7 +2800,6 @@ repo.getShortHead(&#x27;vendor/path/to/a/submodule&#x27;) # &#x27;dead1234&#x27;
 
 
 <table width="100%">
-<tr><td colspan="2"></td></tr>
 <tr> <td colspan="2"> <h4>Methods</h4> </td> </tr>
 
 <tr>
@@ -3397,7 +3386,6 @@ language-specific comment regexes. See {::getProperty} for more details. </p>
 
 
 <table width="100%">
-<tr><td colspan="2"></td></tr>
 <tr> <td colspan="2"> <h4>Methods</h4> </td> </tr>
 
 <tr>
@@ -3514,7 +3502,6 @@ each grammar.</p>
 
 
 <table width="100%">
-<tr><td colspan="2"></td></tr>
 <tr> <td colspan="2"> <h4>Methods</h4> </td> </tr>
 
 <tr>
@@ -3638,7 +3625,6 @@ layer. Created via {TextEditor::decorateMarkerLayer}. </p>
 
 
 <table width="100%">
-<tr><td colspan="2"></td></tr>
 <tr> <td colspan="2"> <h4>Methods</h4> </td> </tr>
 
 <tr>
@@ -3761,7 +3747,6 @@ structure under a &#x60;menu&#x60; key.</p>
 
 
 <table width="100%">
-<tr><td colspan="2"></td></tr>
 <tr> <td colspan="2"> <h4>Methods</h4> </td> </tr>
 
 <tr>
@@ -3814,7 +3799,6 @@ global. </p>
 
 
 <table width="100%">
-<tr><td colspan="2"></td></tr>
 <tr> <td colspan="2"> <h4>Methods</h4> </td> </tr>
 
 <tr>
@@ -3964,7 +3948,6 @@ global. </p>
 
 
 <table width="100%">
-<tr><td colspan="2"></td></tr>
 <tr> <td colspan="2"> <h4>Methods</h4> </td> </tr>
 
 <tr>
@@ -4065,7 +4048,6 @@ settings and also by calling &#x60;enablePackage()/disablePackage()&#x60;. </p>
 
 
 <table width="100%">
-<tr><td colspan="2"></td></tr>
 <tr> <td colspan="2"> <h4>Methods</h4> </td> </tr>
 
 <tr>
@@ -4435,7 +4417,6 @@ stylesheets, keymaps, grammar, editor properties, and menus. </p>
 
 
 <table width="100%">
-<tr><td colspan="2"></td></tr>
 <tr> <td colspan="2"> <h4>Methods</h4> </td> </tr>
 
 <tr>
@@ -4522,7 +4503,6 @@ pending items is shown in italics. </p>
 
 
 <table width="100%">
-<tr><td colspan="2"></td></tr>
 <tr> <td colspan="2"> <h4>Methods</h4> </td> </tr>
 
 <tr>
@@ -5341,7 +5321,6 @@ panels. </p>
 
 
 <table width="100%">
-<tr><td colspan="2"></td></tr>
 <tr> <td colspan="2"> <h4>Methods</h4> </td> </tr>
 
 <tr>
@@ -5470,7 +5449,6 @@ panels. </p>
 
 
 <table width="100%">
-<tr><td colspan="2"></td></tr>
 <tr> <td colspan="2"> <h4>Methods</h4> </td> </tr>
 
 <tr>
@@ -5670,7 +5648,6 @@ for more information. </p>
 
 
 <table width="100%">
-<tr><td colspan="2"></td></tr>
 <tr> <td colspan="2"> <h4>Methods</h4> </td> </tr>
 
 <tr>
@@ -5716,7 +5693,6 @@ for more information. </p>
 
 
 <table width="100%">
-<tr><td colspan="2"></td></tr>
 <tr> <td colspan="2"> <h4>Methods</h4> </td> </tr>
 
 <tr>
@@ -6630,7 +6606,6 @@ which clone and attach style elements in different contexts. </p>
 
 
 <table width="100%">
-<tr><td colspan="2"></td></tr>
 <tr> <td colspan="2"> <h4>Methods</h4> </td> </tr>
 
 <tr>
@@ -6770,7 +6745,6 @@ and the <a href="https://github.com/atom/atom/blob/4a20f13162f65afc816b512ad7201
 
 
 <table width="100%">
-<tr><td colspan="2"></td></tr>
 <tr> <td colspan="2"> <h4>Methods</h4> </td> </tr>
 
 <tr>
@@ -6930,7 +6904,6 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
 
 
 <table width="100%">
-<tr><td colspan="2"></td></tr>
 <tr> <td colspan="2"> <h4>Methods</h4> </td> </tr>
 
 <tr>
@@ -10669,7 +10642,6 @@ will be displayed when the editor has no content.</p>
 
 
 <table width="100%">
-<tr><td colspan="2"></td></tr>
 <tr> <td colspan="2"> <h4>Methods</h4> </td> </tr>
 
 <tr>
@@ -10767,7 +10739,6 @@ updating the list of active themes have completed.</p>
 
 
 <table width="100%">
-<tr><td colspan="2"></td></tr>
 <tr> <td colspan="2"> <h4>Methods</h4> </td> </tr>
 
 <tr>
@@ -10820,7 +10791,6 @@ an ideal tool for implementing views in Atom.</p>
 
 
 <table width="100%">
-<tr><td colspan="2"></td></tr>
 <tr> <td colspan="2"> <h4>Methods</h4> </td> </tr>
 
 <tr>
@@ -10894,7 +10864,6 @@ and friends.</p>
 
 
 <table width="100%">
-<tr><td colspan="2"></td></tr>
 <tr> <td colspan="2"> <h4>Methods</h4> </td> </tr>
 
 <tr>
