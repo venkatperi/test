@@ -25,12 +25,10 @@ in the <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/I
     </tr>
   
       <tr>
-        <td><b><code>a</code></b></td>
-        <td width="8%"><sub><code>Public</code></sub></td>
-        <td width="8%"><sub><code>instance</code></sub></td>
-        <td width="8%"><sub><code><sub><code><a href="#class-"></a></code></sub></code></sub></td>
+      <td><code>:: <b>a</b>  <td width="8%"><b><sub>Public</sub></b></td>
+        <td width="8%"><b><sub>instance</sub></b></td>
+        <td width="8%"><b><sub><code><a href="#class-Interval">Interval</a></code></sub></b></td>
       </tr>
-  
       <tr>
         <td colspan="4">
   <pre><code>      <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number">{Number}</a> The start/left endpoint of this <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/Interval.coffee#L20">{Interval}</a> 
@@ -38,12 +36,10 @@ in the <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/I
       </tr>
   
       <tr>
-        <td><b><code>b</code></b></td>
-        <td width="8%"><sub><code>Public</code></sub></td>
-        <td width="8%"><sub><code>instance</code></sub></td>
-        <td width="8%"><sub><code><sub><code><a href="#class-"></a></code></sub></code></sub></td>
+      <td><code>:: <b>b</b>  <td width="8%"><b><sub>Public</sub></b></td>
+        <td width="8%"><b><sub>instance</sub></b></td>
+        <td width="8%"><b><sub><code><a href="#class-Interval">Interval</a></code></sub></b></td>
       </tr>
-  
       <tr>
         <td colspan="4">
   <pre><code>      <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number">{Number}</a> The end/right endpoint of this <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/Interval.coffee#L20">{Interval}</a> 
@@ -51,12 +47,10 @@ in the <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/I
       </tr>
   
       <tr>
-        <td><b><code>degenerate</code></b></td>
-        <td width="8%"><sub><code>Public</code></sub></td>
-        <td width="8%"><sub><code>instance</code></sub></td>
-        <td width="8%"><sub><code><sub><code><a href="#class-"></a></code></sub></code></sub></td>
+      <td><code>:: <b>degenerate</b>  <td width="8%"><b><sub>Public</sub></b></td>
+        <td width="8%"><b><sub>instance</sub></b></td>
+        <td width="8%"><b><sub><code><a href="#class-Interval">Interval</a></code></sub></b></td>
       </tr>
-  
       <tr>
         <td colspan="4">
   <pre><code>      <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean">{Boolean}</a> True if this `{Instance}` has the same start and end points 
@@ -71,10 +65,10 @@ in the <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/I
     </tr>
   
       <tr>
-        <td><code>:: <b>constructor(</b>arg1[, arg2]<b>)</b></code></td>
-        <td width="8%"><sub><code>Public</code></sub></td>
-        <td width="8%"><sub><code>instance</code></sub></td>
-        <td width="8%"><sub><code><sub><code><a href="#class-Interval">Interval</a></code></sub></code></sub></td>
+      <td><code>:: <b>constructor</b>    <b>(</b>arg1[, arg2]<b>)</b></code></td>
+        <td width="8%"><b><sub>Public</sub></b></td>
+        <td width="8%"><b><sub>instance</sub></b></td>
+        <td width="8%"><b><sub><code><a href="#class-Interval">Interval</a></code></sub></b></td>
       </tr>
       <tr>
         <td colspan="4">
@@ -85,25 +79,10 @@ in the <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/I
       </tr>
   
       <tr>
-        <td><code>:: <b>contains(</b>other<b>)</b></code></td>
-        <td width="8%"><sub><code>Public</code></sub></td>
-        <td width="8%"><sub><code>instance</code></sub></td>
-        <td width="8%"><sub><code><sub><code><a href="#class-Interval">Interval</a></code></sub></code></sub></td>
-      </tr>
-      <tr>
-        <td colspan="4">
-  
-  
-          <em>Returns</em>
-          
-        </td>
-      </tr>
-  
-      <tr>
-        <td><code>:: <b>overlaps(</b>other<b>)</b></code></td>
-        <td width="8%"><sub><code>Public</code></sub></td>
-        <td width="8%"><sub><code>instance</code></sub></td>
-        <td width="8%"><sub><code><sub><code><a href="#class-Interval">Interval</a></code></sub></code></sub></td>
+      <td><code>:: <b>contains</b>    <b>(</b>other<b>)</b></code></td>
+        <td width="8%"><b><sub>Public</sub></b></td>
+        <td width="8%"><b><sub>instance</sub></b></td>
+        <td width="8%"><b><sub><code><a href="#class-Interval">Interval</a></code></sub></b></td>
       </tr>
       <tr>
         <td colspan="4">
@@ -115,10 +94,10 @@ in the <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/I
       </tr>
   
       <tr>
-        <td><code>:: <b>within(</b>other<b>)</b></code></td>
-        <td width="8%"><sub><code>Public</code></sub></td>
-        <td width="8%"><sub><code>instance</code></sub></td>
-        <td width="8%"><sub><code><sub><code><a href="#class-Interval">Interval</a></code></sub></code></sub></td>
+      <td><code>:: <b>overlaps</b>    <b>(</b>other<b>)</b></code></td>
+        <td width="8%"><b><sub>Public</sub></b></td>
+        <td width="8%"><b><sub>instance</sub></b></td>
+        <td width="8%"><b><sub><code><a href="#class-Interval">Interval</a></code></sub></b></td>
       </tr>
       <tr>
         <td colspan="4">
@@ -130,10 +109,10 @@ in the <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/I
       </tr>
   
       <tr>
-        <td><code>:: <b>touches(</b>other<b>)</b></code></td>
-        <td width="8%"><sub><code>Public</code></sub></td>
-        <td width="8%"><sub><code>instance</code></sub></td>
-        <td width="8%"><sub><code><sub><code><a href="#class-Interval">Interval</a></code></sub></code></sub></td>
+      <td><code>:: <b>within</b>    <b>(</b>other<b>)</b></code></td>
+        <td width="8%"><b><sub>Public</sub></b></td>
+        <td width="8%"><b><sub>instance</sub></b></td>
+        <td width="8%"><b><sub><code><a href="#class-Interval">Interval</a></code></sub></b></td>
       </tr>
       <tr>
         <td colspan="4">
@@ -145,10 +124,10 @@ in the <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/I
       </tr>
   
       <tr>
-        <td><code>:: <b>disjoint(</b>other<b>)</b></code></td>
-        <td width="8%"><sub><code>Public</code></sub></td>
-        <td width="8%"><sub><code>instance</code></sub></td>
-        <td width="8%"><sub><code><sub><code><a href="#class-Interval">Interval</a></code></sub></code></sub></td>
+      <td><code>:: <b>touches</b>    <b>(</b>other<b>)</b></code></td>
+        <td width="8%"><b><sub>Public</sub></b></td>
+        <td width="8%"><b><sub>instance</sub></b></td>
+        <td width="8%"><b><sub><code><a href="#class-Interval">Interval</a></code></sub></b></td>
       </tr>
       <tr>
         <td colspan="4">
@@ -160,10 +139,10 @@ in the <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/I
       </tr>
   
       <tr>
-        <td><code>:: <b>union(</b>others<b>)</b></code></td>
-        <td width="8%"><sub><code>Public</code></sub></td>
-        <td width="8%"><sub><code>instance</code></sub></td>
-        <td width="8%"><sub><code><sub><code><a href="#class-Interval">Interval</a></code></sub></code></sub></td>
+      <td><code>:: <b>disjoint</b>    <b>(</b>other<b>)</b></code></td>
+        <td width="8%"><b><sub>Public</sub></b></td>
+        <td width="8%"><b><sub>instance</sub></b></td>
+        <td width="8%"><b><sub><code><a href="#class-Interval">Interval</a></code></sub></b></td>
       </tr>
       <tr>
         <td colspan="4">
@@ -175,10 +154,10 @@ in the <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/I
       </tr>
   
       <tr>
-        <td><code>:: <b>intersection(</b>other<b>)</b></code></td>
-        <td width="8%"><sub><code>Public</code></sub></td>
-        <td width="8%"><sub><code>instance</code></sub></td>
-        <td width="8%"><sub><code><sub><code><a href="#class-Interval">Interval</a></code></sub></code></sub></td>
+      <td><code>:: <b>union</b>    <b>(</b>others<b>)</b></code></td>
+        <td width="8%"><b><sub>Public</sub></b></td>
+        <td width="8%"><b><sub>instance</sub></b></td>
+        <td width="8%"><b><sub><code><a href="#class-Interval">Interval</a></code></sub></b></td>
       </tr>
       <tr>
         <td colspan="4">
@@ -190,10 +169,10 @@ in the <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/I
       </tr>
   
       <tr>
-        <td><code>:: <b>difference(</b>other<b>)</b></code></td>
-        <td width="8%"><sub><code>Public</code></sub></td>
-        <td width="8%"><sub><code>instance</code></sub></td>
-        <td width="8%"><sub><code><sub><code><a href="#class-Interval">Interval</a></code></sub></code></sub></td>
+      <td><code>:: <b>intersection</b>    <b>(</b>other<b>)</b></code></td>
+        <td width="8%"><b><sub>Public</sub></b></td>
+        <td width="8%"><b><sub>instance</sub></b></td>
+        <td width="8%"><b><sub><code><a href="#class-Interval">Interval</a></code></sub></b></td>
       </tr>
       <tr>
         <td colspan="4">
@@ -205,10 +184,10 @@ in the <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/I
       </tr>
   
       <tr>
-        <td><code>:: <b>xor(</b>other<b>)</b></code></td>
-        <td width="8%"><sub><code>Public</code></sub></td>
-        <td width="8%"><sub><code>instance</code></sub></td>
-        <td width="8%"><sub><code><sub><code><a href="#class-Interval">Interval</a></code></sub></code></sub></td>
+      <td><code>:: <b>difference</b>    <b>(</b>other<b>)</b></code></td>
+        <td width="8%"><b><sub>Public</sub></b></td>
+        <td width="8%"><b><sub>instance</sub></b></td>
+        <td width="8%"><b><sub><code><a href="#class-Interval">Interval</a></code></sub></b></td>
       </tr>
       <tr>
         <td colspan="4">
@@ -220,10 +199,10 @@ in the <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/I
       </tr>
   
       <tr>
-        <td><code>:: <b>equals(</b>other<b>)</b></code></td>
-        <td width="8%"><sub><code>Public</code></sub></td>
-        <td width="8%"><sub><code>instance</code></sub></td>
-        <td width="8%"><sub><code><sub><code><a href="#class-Interval">Interval</a></code></sub></code></sub></td>
+      <td><code>:: <b>xor</b>    <b>(</b>other<b>)</b></code></td>
+        <td width="8%"><b><sub>Public</sub></b></td>
+        <td width="8%"><b><sub>instance</sub></b></td>
+        <td width="8%"><b><sub><code><a href="#class-Interval">Interval</a></code></sub></b></td>
       </tr>
       <tr>
         <td colspan="4">
@@ -235,10 +214,24 @@ in the <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/I
       </tr>
   
       <tr>
-        <td><code>:: <b>toString(</b><b>)</b></code></td>
-        <td width="8%"><sub><code>Public</code></sub></td>
-        <td width="8%"><sub><code>instance</code></sub></td>
-        <td width="8%"><sub><code><sub><code><a href="#class-Interval">Interval</a></code></sub></code></sub></td>
+      <td><code>:: <b>equals</b>    <b>(</b>other<b>)</b></code></td>
+        <td width="8%"><b><sub>Public</sub></b></td>
+        <td width="8%"><b><sub>instance</sub></b></td>
+        <td width="8%"><b><sub><code><a href="#class-Interval">Interval</a></code></sub></b></td>
+      </tr>
+      <tr>
+        <td colspan="4">
+  
+  
+          <em>Returns</em>
+          
+        </td>
+      </tr>
+  
+      <tr>
+      <td><code>:: <b>toString</b>  <td width="8%"><b><sub>Public</sub></b></td>
+        <td width="8%"><b><sub>instance</sub></b></td>
+        <td width="8%"><b><sub><code><a href="#class-Interval">Interval</a></code></sub></b></td>
       </tr>
       <tr>
         <td colspan="4">
