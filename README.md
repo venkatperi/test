@@ -993,8 +993,7 @@ context of the current DOM node, meaning &#x60;this&#x60; always points at
 &#x60;event.currentTarget&#x60;. As is normally the case with DOM events,
 &#x60;stopPropagation&#x60; and &#x60;stopImmediatePropagation&#x60; can be used to terminate the
 bubbling process and prevent invocation of additional listeners.</p>
-<h2 id="example">Example</h2>
-<p>Here is a command that inserts the current date in an editor:</p>
+<h6>example<h6><p>Here is a command that inserts the current date in an editor:</p>
 <p>&#x60;&#x60;&#x60;coffee
 atom.commands.add &#x27;atom-text-editor&#x27;,
   &#x27;user:insert-date&#x27;: (event) -&gt;
@@ -1110,10 +1109,8 @@ processed.</p>
 
 <p>Used to access all of Atom&#x27;s configuration details.</p>
 <p>An instance of this class is always available as the &#x60;atom.config&#x60; global.</p>
-<h2 id="getting-and-setting-config-settings-">Getting and setting config settings.</h2>
-<p>&#x60;&#x60;&#x60;coffee</p>
-<h1 id="note-that-with-no-value-set-get-returns-the-setting-x27-s-default-value-">Note that with no value set, ::get returns the setting&#x27;s default value.</h1>
-<p>atom.config.get(&#x27;my-package.myKey&#x27;) # -&gt; &#x27;defaultValue&#x27;</p>
+<h6>getting-and-setting-config-settings-<h6><p>&#x60;&#x60;&#x60;coffee</p>
+<h5>note-that-with-no-value-set-get-returns-the-setting-x27-s-default-value-<h5><p>atom.config.get(&#x27;my-package.myKey&#x27;) # -&gt; &#x27;defaultValue&#x27;</p>
 <p>atom.config.set(&#x27;my-package.myKey&#x27;, &#x27;value&#x27;)
 atom.config.get(&#x27;my-package.myKey&#x27;) # -&gt; &#x27;value&#x27;
 &#x60;&#x60;&#x60;</p>
@@ -1121,49 +1118,39 @@ atom.config.get(&#x27;my-package.myKey&#x27;) # -&gt; &#x27;value&#x27;
 <p>&#x60;&#x60;&#x60;coffee
 atom.config.set(&#x27;my-package.myKey&#x27;, &#x27;value&#x27;)
 atom.config.observe &#x27;my-package.myKey&#x27;, (newValue) -&gt;</p>
-<h1 id="-x60-observe-x60-calls-immediately-and-every-time-the-value-is-changed">&#x60;observe&#x60; calls immediately and every time the value is changed</h1>
-<p>  console.log &#x27;My configuration changed:&#x27;, newValue
+<h5>-x60-observe-x60-calls-immediately-and-every-time-the-value-is-changed<h5><p>  console.log &#x27;My configuration changed:&#x27;, newValue
 &#x60;&#x60;&#x60;</p>
 <p>If you want a notification only when the value changes, use {::onDidChange}.</p>
 <p>&#x60;&#x60;&#x60;coffee
 atom.config.onDidChange &#x27;my-package.myKey&#x27;, ({newValue, oldValue}) -&gt;
   console.log &#x27;My configuration changed:&#x27;, newValue, oldValue
 &#x60;&#x60;&#x60;</p>
-<h3 id="value-coercion">Value Coercion</h3>
-<p>Config settings each have a type specified by way of a
+<h7>value-coercion<h7><p>Config settings each have a type specified by way of a
 <a href="json-schema.org">schema</a>. For example we might an integer setting that only
 allows integers greater than &#x60;0&#x60;:</p>
 <p>&#x60;&#x60;&#x60;coffee</p>
-<h1 id="when-no-value-has-been-set-x60-get-x60-returns-the-setting-x27-s-default-value">When no value has been set, &#x60;::get&#x60; returns the setting&#x27;s default value</h1>
-<p>atom.config.get(&#x27;my-package.anInt&#x27;) # -&gt; 12</p>
-<h1 id="the-string-will-be-coerced-to-the-integer-123">The string will be coerced to the integer 123</h1>
-<p>atom.config.set(&#x27;my-package.anInt&#x27;, &#x27;123&#x27;)
+<h5>when-no-value-has-been-set-x60-get-x60-returns-the-setting-x27-s-default-value<h5><p>atom.config.get(&#x27;my-package.anInt&#x27;) # -&gt; 12</p>
+<h5>the-string-will-be-coerced-to-the-integer-123<h5><p>atom.config.set(&#x27;my-package.anInt&#x27;, &#x27;123&#x27;)
 atom.config.get(&#x27;my-package.anInt&#x27;) # -&gt; 123</p>
-<h1 id="the-string-will-be-coerced-to-an-integer-but-it-must-be-greater-than-0-so-is-set-to-1">The string will be coerced to an integer, but it must be greater than 0, so is set to 1</h1>
-<p>atom.config.set(&#x27;my-package.anInt&#x27;, &#x27;-20&#x27;)
+<h5>the-string-will-be-coerced-to-an-integer-but-it-must-be-greater-than-0-so-is-set-to-1<h5><p>atom.config.set(&#x27;my-package.anInt&#x27;, &#x27;-20&#x27;)
 atom.config.get(&#x27;my-package.anInt&#x27;) # -&gt; 1
 &#x60;&#x60;&#x60;</p>
-<h2 id="defining-settings-for-your-package">Defining settings for your package</h2>
-<p>Define a schema under a &#x60;config&#x60; key in your package main.</p>
+<h6>defining-settings-for-your-package<h6><p>Define a schema under a &#x60;config&#x60; key in your package main.</p>
 <p>&#x60;&#x60;&#x60;coffee
 module.exports &#x3D;</p>
-<h1 id="your-config-schema">Your config schema</h1>
-<p>  config:
+<h5>your-config-schema<h5><p>  config:
     someInt:
       type: &#x27;integer&#x27;
       default: 23
       minimum: 1</p>
 <p>  activate: (state) -&gt; # ...</p>
-<h1 id="-">...</h1>
-<p>&#x60;&#x60;&#x60;</p>
+<h5>-<h5><p>&#x60;&#x60;&#x60;</p>
 <p>See <a href="https://atom.io/docs/latest/hacking-atom-package-word-count">package docs</a> for
 more info.</p>
-<h2 id="config-schemas">Config Schemas</h2>
-<p>We use <a href="http://json-schema.org">json schema</a> which allows you to define your value&#x27;s
+<h6>config-schemas<h6><p>We use <a href="http://json-schema.org">json schema</a> which allows you to define your value&#x27;s
 default, the type it should be, etc. A simple example:</p>
 <p>&#x60;&#x60;&#x60;coffee</p>
-<h1 id="we-want-to-provide-an-x60-enablething-x60-and-a-x60-thingvolume-x60-">We want to provide an &#x60;enableThing&#x60;, and a &#x60;thingVolume&#x60;</h1>
-<p>config:
+<h5>we-want-to-provide-an-x60-enablething-x60-and-a-x60-thingvolume-x60-<h5><p>config:
   enableThing:
     type: &#x27;boolean&#x27;
     default: false
@@ -1178,37 +1165,31 @@ set to a string &#x60;&#x27;10&#x27;&#x60;, it will be coerced into an integer.<
 <p>&#x60;&#x60;&#x60;coffee
 atom.config.set(&#x27;my-package.thingVolume&#x27;, &#x27;10&#x27;)
 atom.config.get(&#x27;my-package.thingVolume&#x27;) # -&gt; 10</p>
-<h1 id="it-respects-the-min-max">It respects the min / max</h1>
-<p>atom.config.set(&#x27;my-package.thingVolume&#x27;, &#x27;400&#x27;)
+<h5>it-respects-the-min-max<h5><p>atom.config.set(&#x27;my-package.thingVolume&#x27;, &#x27;400&#x27;)
 atom.config.get(&#x27;my-package.thingVolume&#x27;) # -&gt; 11</p>
-<h1 id="if-it-cannot-be-coerced-the-value-will-not-be-set">If it cannot be coerced, the value will not be set</h1>
-<p>atom.config.set(&#x27;my-package.thingVolume&#x27;, &#x27;cats&#x27;)
+<h5>if-it-cannot-be-coerced-the-value-will-not-be-set<h5><p>atom.config.set(&#x27;my-package.thingVolume&#x27;, &#x27;cats&#x27;)
 atom.config.get(&#x27;my-package.thingVolume&#x27;) # -&gt; 11
 &#x60;&#x60;&#x60;</p>
-<h3 id="supported-types">Supported Types</h3>
-<p>The &#x60;type&#x60; keyword can be a string with any one of the following. You can also
+<h7>supported-types<h7><p>The &#x60;type&#x60; keyword can be a string with any one of the following. You can also
 chain them by specifying multiple in an an array. For example</p>
 <p>&#x60;&#x60;&#x60;coffee
 config:
   someSetting:
     type: [&#x27;boolean&#x27;, &#x27;integer&#x27;]
     default: 5</p>
-<h1 id="then">Then</h1>
-<p>atom.config.set(&#x27;my-package.someSetting&#x27;, &#x27;true&#x27;)
+<h5>then<h5><p>atom.config.set(&#x27;my-package.someSetting&#x27;, &#x27;true&#x27;)
 atom.config.get(&#x27;my-package.someSetting&#x27;) # -&gt; true</p>
 <p>atom.config.set(&#x27;my-package.someSetting&#x27;, &#x27;12&#x27;)
 atom.config.get(&#x27;my-package.someSetting&#x27;) # -&gt; 12
 &#x60;&#x60;&#x60;</p>
-<h4 id="string">string</h4>
-<p>Values must be a string.</p>
+<h4>string<h4><p>Values must be a string.</p>
 <p>&#x60;&#x60;&#x60;coffee
 config:
   someSetting:
     type: &#x27;string&#x27;
     default: &#x27;hello&#x27;
 &#x60;&#x60;&#x60;</p>
-<h4 id="integer">integer</h4>
-<p>Values will be coerced into integer. Supports the (optional) &#x60;minimum&#x60; and
+<h4>integer<h4><p>Values will be coerced into integer. Supports the (optional) &#x60;minimum&#x60; and
 &#x60;maximum&#x60; keys.</p>
 <p>&#x60;&#x60;&#x60;coffee
   config:
@@ -1218,8 +1199,7 @@ config:
       minimum: 1
       maximum: 11
 &#x60;&#x60;&#x60;</p>
-<h4 id="number">number</h4>
-<p>Values will be coerced into a number, including real numbers. Supports the
+<h4>number<h4><p>Values will be coerced into a number, including real numbers. Supports the
 (optional) &#x60;minimum&#x60; and &#x60;maximum&#x60; keys.</p>
 <p>&#x60;&#x60;&#x60;coffee
 config:
@@ -1229,8 +1209,7 @@ config:
     minimum: 1.5
     maximum: 11.5
 &#x60;&#x60;&#x60;</p>
-<h4 id="boolean">boolean</h4>
-<p>Values will be coerced into a Boolean. &#x60;&#x27;true&#x27;&#x60; and &#x60;&#x27;false&#x27;&#x60; will be coerced into
+<h4>boolean<h4><p>Values will be coerced into a Boolean. &#x60;&#x27;true&#x27;&#x60; and &#x60;&#x27;false&#x27;&#x60; will be coerced into
 a boolean. Numbers, arrays, objects, and anything else will not be coerced.</p>
 <p>&#x60;&#x60;&#x60;coffee
 config:
@@ -1238,8 +1217,7 @@ config:
     type: &#x27;boolean&#x27;
     default: false
 &#x60;&#x60;&#x60;</p>
-<h4 id="array">array</h4>
-<p>Value must be an Array. The types of the values can be specified by a
+<h4>array<h4><p>Value must be an Array. The types of the values can be specified by a
 subschema in the &#x60;items&#x60; key.</p>
 <p>&#x60;&#x60;&#x60;coffee
 config:
@@ -1251,8 +1229,7 @@ config:
       minimum: 1.5
       maximum: 11.5
 &#x60;&#x60;&#x60;</p>
-<h4 id="color">color</h4>
-<p>Values will be coerced into a <a href="https://github.com/atom/atom/blob/v1.9.0-dev/src/color.coffee#L7">{Color}</a> with &#x60;red&#x60;, &#x60;green&#x60;, &#x60;blue&#x60;, and &#x60;alpha&#x60;
+<h4>color<h4><p>Values will be coerced into a <a href="https://github.com/atom/atom/blob/v1.9.0-dev/src/color.coffee#L7">{Color}</a> with &#x60;red&#x60;, &#x60;green&#x60;, &#x60;blue&#x60;, and &#x60;alpha&#x60;
 properties that all have numeric values. &#x60;red&#x60;, &#x60;green&#x60;, &#x60;blue&#x60; will be in
 the range 0 to 255 and &#x60;value&#x60; will be in the range 0 to 1. Values can be any
 valid CSS color format such as &#x60;#abc&#x60;, &#x60;#abcdef&#x60;, &#x60;white&#x60;,
@@ -1263,8 +1240,7 @@ config:
     type: &#x27;color&#x27;
     default: &#x27;white&#x27;
 &#x60;&#x60;&#x60;</p>
-<h4 id="object-grouping-other-types">object / Grouping other types</h4>
-<p>A config setting with the type &#x60;object&#x60; allows grouping a set of config
+<h4>object-grouping-other-types<h4><p>A config setting with the type &#x60;object&#x60; allows grouping a set of config
 settings. The group will be visualy separated and has its own group headline.
 The sub options must be listed under a &#x60;properties&#x60; key.</p>
 <p>&#x60;&#x60;&#x60;coffee
@@ -1277,9 +1253,7 @@ config:
         minimum: 1.5
         maximum: 11.5
 &#x60;&#x60;&#x60;</p>
-<h3 id="other-supported-keys">Other Supported Keys</h3>
-<h4 id="enum">enum</h4>
-<p>All types support an &#x60;enum&#x60; key, which lets you specify all the values the
+<h7>other-supported-keys<h7><h4>enum<h4><p>All types support an &#x60;enum&#x60; key, which lets you specify all the values the
 setting can take. &#x60;enum&#x60; may be an array of allowed values (of the specified
 type), or an array of objects with &#x60;value&#x60; and &#x60;description&#x60; properties, where
 the &#x60;value&#x60; is an allowed value, and the &#x60;description&#x60; is a descriptive string
@@ -1308,15 +1282,12 @@ config:
 <p>&#x60;&#x60;&#x60;coffee
 atom.config.set(&#x27;my-package.someSetting&#x27;, &#x27;2&#x27;)
 atom.config.get(&#x27;my-package.someSetting&#x27;) # -&gt; 2</p>
-<h1 id="will-not-set-values-outside-of-the-enum-values">will not set values outside of the enum values</h1>
-<p>atom.config.set(&#x27;my-package.someSetting&#x27;, &#x27;3&#x27;)
+<h5>will-not-set-values-outside-of-the-enum-values<h5><p>atom.config.set(&#x27;my-package.someSetting&#x27;, &#x27;3&#x27;)
 atom.config.get(&#x27;my-package.someSetting&#x27;) # -&gt; 2</p>
-<h1 id="if-it-cannot-be-coerced-the-value-will-not-be-set">If it cannot be coerced, the value will not be set</h1>
-<p>atom.config.set(&#x27;my-package.someSetting&#x27;, &#x27;4&#x27;)
+<h5>if-it-cannot-be-coerced-the-value-will-not-be-set<h5><p>atom.config.set(&#x27;my-package.someSetting&#x27;, &#x27;4&#x27;)
 atom.config.get(&#x27;my-package.someSetting&#x27;) # -&gt; 4
 &#x60;&#x60;&#x60;</p>
-<h4 id="title-and-description">title and description</h4>
-<p>The settings view will use the &#x60;title&#x60; and &#x60;description&#x60; keys to display your
+<h4>title-and-description<h4><p>The settings view will use the &#x60;title&#x60; and &#x60;description&#x60; keys to display your
 config setting in a readable way. By default the settings view humanizes your
 config key, so &#x60;someSetting&#x60; becomes &#x60;Some Setting&#x60;. In some cases, this is
 confusing for users, and a more descriptive title is useful.</p>
@@ -1344,8 +1315,7 @@ Specifically, you may use the following in configuration setting descriptions:</
 <li>line breaks - &#x60;line breaks&lt;br/&gt;&#x60;</li>
 <li><del>strikethrough</del> - &#x60;<del>strikethrough</del>&#x60;</li>
 </ul>
-<h4 id="order">order</h4>
-<p>The settings view orders your settings alphabetically. You can override this
+<h4>order<h4><p>The settings view orders your settings alphabetically. You can override this
 ordering with the order key.</p>
 <p>&#x60;&#x60;&#x60;coffee
 config:
@@ -1358,8 +1328,7 @@ config:
     default: 4
     order: 2
 &#x60;&#x60;&#x60;</p>
-<h2 id="best-practices">Best practices</h2>
-<ul>
+<h6>best-practices<h6><ul>
 <li>Don&#x27;t depend on (or write to) configuration keys outside of your keypath.</li>
 </ul>
 
@@ -1386,13 +1355,11 @@ config:
 <p>Add a listener for changes to a given key path. This is different
 than {::onDidChange} in that it will immediately call your callback with the
 current value of the config entry.</p>
-<h3 id="examples">Examples</h3>
-<p>You might want to be notified when the themes change. We&#x27;ll watch
+<h7>examples<h7><p>You might want to be notified when the themes change. We&#x27;ll watch
 &#x60;core.themes&#x60; for changes</p>
 <p>&#x60;&#x60;&#x60;coffee
 atom.config.observe &#x27;core.themes&#x27;, (value) -&gt;</p>
-<h1 id="do-stuff-with-value">do stuff with value</h1>
-<p>&#x60;&#x60;&#x60;</p>
+<h5>do-stuff-with-value<h5><p>&#x60;&#x60;&#x60;</p>
 
 <em>Returns</em>
 <ul>
@@ -1448,8 +1415,7 @@ not specified, your callback will be called on changes to any key.</p>
 </ul>
 
 <p>Retrieves the setting for the given key.</p>
-<h3 id="examples">Examples</h3>
-<p>You might want to know what themes are enabled, so check &#x60;core.themes&#x60;</p>
+<h7>examples<h7><p>You might want to know what themes are enabled, so check &#x60;core.themes&#x60;</p>
 <p>&#x60;&#x60;&#x60;coffee
 atom.config.get(&#x27;core.themes&#x27;)
 &#x60;&#x60;&#x60;</p>
@@ -1523,8 +1489,7 @@ associated scope selector.</p>
 
 <p>Sets the value for a configuration setting.</p>
 <p>This value is stored in Atom&#x27;s internal configuration file.</p>
-<h3 id="examples">Examples</h3>
-<p>You might want to change the themes programmatically:</p>
+<h7>examples<h7><p>You might want to change the themes programmatically:</p>
 <p>&#x60;&#x60;&#x60;coffee
 atom.config.set(&#x27;core.themes&#x27;, [&#x27;atom-light-ui&#x27;, &#x27;atom-light-syntax&#x27;])
 &#x60;&#x60;&#x60;</p>
@@ -1534,10 +1499,8 @@ atom.config.set(&#x27;core.themes&#x27;, [&#x27;atom-light-ui&#x27;, &#x27;atom-
 atom.config.get(&#x27;editor.tabLength&#x27;) # &#x3D;&gt; 4
 atom.config.get(&#x27;editor.tabLength&#x27;, scope: [&#x27;source.ruby&#x27;]) # &#x3D;&gt; 4
 atom.config.get(&#x27;editor.tabLength&#x27;, scope: [&#x27;source.js&#x27;]) # &#x3D;&gt; 4</p>
-<h1 id="set-ruby-to-2">Set ruby to 2</h1>
-<p>atom.config.set(&#x27;editor.tabLength&#x27;, 2, scopeSelector: &#x27;.source.ruby&#x27;) # &#x3D;&gt; true</p>
-<h1 id="notice-it-x27-s-only-set-to-2-in-the-case-of-ruby">Notice it&#x27;s only set to 2 in the case of ruby</h1>
-<p>atom.config.get(&#x27;editor.tabLength&#x27;) # &#x3D;&gt; 4
+<h5>set-ruby-to-2<h5><p>atom.config.set(&#x27;editor.tabLength&#x27;, 2, scopeSelector: &#x27;.source.ruby&#x27;) # &#x3D;&gt; true</p>
+<h5>notice-it-x27-s-only-set-to-2-in-the-case-of-ruby<h5><p>atom.config.get(&#x27;editor.tabLength&#x27;) # &#x3D;&gt; 4
 atom.config.get(&#x27;editor.tabLength&#x27;, scope: [&#x27;source.ruby&#x27;]) # &#x3D;&gt; 2
 atom.config.get(&#x27;editor.tabLength&#x27;, scope: [&#x27;source.js&#x27;]) # &#x3D;&gt; 4
 &#x60;&#x60;&#x60;</p>
@@ -1645,8 +1608,7 @@ handlers will be called once if the value for their key-path has changed.</p>
 context menu.</p>
 <p>An instance of this class is always available as the &#x60;atom.contextMenu&#x60;
 global.</p>
-<h2 id="context-menu-cson-format">Context Menu CSON Format</h2>
-<p>&#x60;&#x60;&#x60;coffee
+<h6>context-menu-cson-format<h6><p>&#x60;&#x60;&#x60;coffee
 &#x27;atom-workspace&#x27;: [{label: &#x27;Help&#x27;, command: &#x27;application:open-documentation&#x27;}]
 &#x27;atom-text-editor&#x27;: [{
   label: &#x27;History&#x27;,
@@ -3707,8 +3669,7 @@ layer. Created via {TextEditor::decorateMarkerLayer}. </p>
 <p>Provides a registry for menu items that you&#x27;d like to appear in the
 application menu.</p>
 <p>An instance of this class is always available as the &#x60;atom.menu&#x60; global.</p>
-<h2 id="menu-cson-format">Menu CSON Format</h2>
-<p>Here is an example from the <a href="https://github.com/atom/tree-view/blob/master/menus/tree-view.cson">tree-view</a>:</p>
+<h6>menu-cson-format<h6><p>Here is an example from the <a href="https://github.com/atom/tree-view/blob/master/menus/tree-view.cson">tree-view</a>:</p>
 <p>&#x60;&#x60;&#x60;coffee
 [
   {
@@ -6878,8 +6839,7 @@ instead.</p>
 same file is open in two different panes, Atom creates a separate editor for
 each pane. If the buffer is manipulated the changes are reflected in both
 editors, but each maintains its own cursor position, folded lines, etc.</p>
-<h2 id="accessing-texteditor-instances">Accessing TextEditor Instances</h2>
-<p>The easiest way to get hold of &#x60;TextEditor&#x60; objects is by registering a callback
+<h6>accessing-texteditor-instances<h6><p>The easiest way to get hold of &#x60;TextEditor&#x60; objects is by registering a callback
 with &#x60;::observeTextEditors&#x60; on the &#x60;atom.workspace&#x60; global. Your callback will
 then be called with all current editor instances and also when any editor is
 created in the future.</p>
@@ -6887,8 +6847,7 @@ created in the future.</p>
 atom.workspace.observeTextEditors (editor) -&gt;
   editor.insertText(&#x27;Hello World&#x27;)
 &#x60;&#x60;&#x60;</p>
-<h2 id="buffer-vs-screen-coordinates">Buffer vs. Screen Coordinates</h2>
-<p>Because editors support folds and soft-wrapping, the lines on screen don&#x27;t
+<h6>buffer-vs-screen-coordinates<h6><p>Because editors support folds and soft-wrapping, the lines on screen don&#x27;t
 always match the lines in the buffer. For example, a long line that soft wraps
 twice renders as three lines on screen, but only represents one line in the
 buffer. Similarly, if rows 5-10 are folded, then row 6 on screen corresponds
@@ -10825,8 +10784,7 @@ added provider.</li>
 <p>If you&#x27;re just <em>using</em> the workspace, you shouldn&#x27;t need to access the view
 layer, but view layer access may be necessary if you want to perform DOM
 manipulation that isn&#x27;t supported via the model API.</p>
-<h2 id="view-resolution-algorithm">View Resolution Algorithm</h2>
-<p>The view associated with the object is resolved using the following
+<h6>view-resolution-algorithm<h6><p>The view associated with the object is resolved using the following
 sequence</p>
 <ol>
 <li>Is the object an instance of &#x60;HTMLElement&#x60;? If true, return the object.</li>
