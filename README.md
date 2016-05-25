@@ -61,7 +61,7 @@ in the <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/I
 
 <tr>
 <td><code>:: <b>constructor(</b>arg1[, arg2]<b>)</b></code></td>
-<td>Public</td> </tr>
+<td><code>Public</code></td> </tr>
 <tr><td colspan="2">
 <ul>
 <li><code>arg1</code> can be a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">{String}</a> or an <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array">{Array}</a> or <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object">{Object}</a> or a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number">{Number}</a></li>
@@ -85,7 +85,7 @@ can be any one of a comma, semicolon, or a space</li>
 
 <tr>
 <td><code>:: <b>contains(</b>other<b>)</b></code></td>
-<td>Public</td> </tr>
+<td><code>Public</code></td> </tr>
 <tr><td colspan="2">
 <ul>
 <li><code>other</code> the other <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/Interval.coffee#L20">{Interval}</a></li>
@@ -102,7 +102,7 @@ can be any one of a comma, semicolon, or a space</li>
 
 <tr>
 <td><code>:: <b>overlaps(</b>other<b>)</b></code></td>
-<td>Public</td> </tr>
+<td><code>Public</code></td> </tr>
 <tr><td colspan="2">
 <ul>
 <li><code>other</code> the other <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/Interval.coffee#L20">{Interval}</a></li>
@@ -121,7 +121,7 @@ but not all points.</p>
 
 <tr>
 <td><code>:: <b>within(</b>other<b>)</b></code></td>
-<td>Public</td> </tr>
+<td><code>Public</code></td> </tr>
 <tr><td colspan="2">
 <ul>
 <li><code>other</code> the other <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/Interval.coffee#L20">{Interval}</a></li>
@@ -140,7 +140,7 @@ X is completely within Y and neither of their endpoints touch.</p>
 
 <tr>
 <td><code>:: <b>touches(</b>other<b>)</b></code></td>
-<td>Public</td> </tr>
+<td><code>Public</code></td> </tr>
 <tr><td colspan="2">
 <ul>
 <li><code>other</code> the other <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/Interval.coffee#L20">{Interval}</a></li>
@@ -162,7 +162,7 @@ X is completely within Y and neither of their endpoints touch.</p>
 
 <tr>
 <td><code>:: <b>disjoint(</b>other<b>)</b></code></td>
-<td>Public</td> </tr>
+<td><code>Public</code></td> </tr>
 <tr><td colspan="2">
 <ul>
 <li><code>other</code> the other <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/Interval.coffee#L20">{Interval}</a></li>
@@ -181,7 +181,7 @@ i.e. if their intersection is the empty set.</p>
 
 <tr>
 <td><code>:: <b>union(</b>others<b>)</b></code></td>
-<td>Public</td> </tr>
+<td><code>Public</code></td> </tr>
 <tr><td colspan="2">
 <ul>
 <li><code>others</code> {Array<a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/Interval.coffee#L20">{Interval}</a>} One or more intervals</li>
@@ -200,7 +200,7 @@ i.e. if their intersection is the empty set.</p>
 
 <tr>
 <td><code>:: <b>intersection(</b>other<b>)</b></code></td>
-<td>Public</td> </tr>
+<td><code>Public</code></td> </tr>
 <tr><td colspan="2">
 <ul>
 <li><code>other</code> the other <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/Interval.coffee#L20">{Interval}</a></li>
@@ -218,7 +218,7 @@ not intersect.</li>
 
 <tr>
 <td><code>:: <b>difference(</b>other<b>)</b></code></td>
-<td>Public</td> </tr>
+<td><code>Public</code></td> </tr>
 <tr><td colspan="2">
 <ul>
 <li><code>other</code> the other <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/Interval.coffee#L20">{Interval}</a></li>
@@ -242,7 +242,7 @@ in X which are not in Y.</p>
 
 <tr>
 <td><code>:: <b>xor(</b>other<b>)</b></code></td>
-<td>Public</td> </tr>
+<td><code>Public</code></td> </tr>
 <tr><td colspan="2">
 <ul>
 <li><code>other</code> the other <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/Interval.coffee#L20">{Interval}</a></li>
@@ -268,7 +268,7 @@ Boolean logic.</p>
 
 <tr>
 <td><code>:: <b>equals(</b>other<b>)</b></code></td>
-<td>Public</td> </tr>
+<td><code>Public</code></td> </tr>
 <tr><td colspan="2">
 <ul>
 <li><code>other</code> the other <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/Interval.coffee#L20">{Interval}</a></li>
@@ -287,7 +287,7 @@ i.e same start and end points.</p>
 
 <tr>
 <td><code>:: <b>toString(</b><b>)</b></code></td>
-<td>Public</td> </tr>
+<td><code>Public</code></td> </tr>
 <tr><td colspan="2">
 
 <p>Get a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">{String}</a> representation of this <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/Interval.coffee#L20">{Interval}</a></p>
