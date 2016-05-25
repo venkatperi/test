@@ -60,7 +60,7 @@ in the <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/I
 <tr> <td colspan="2"> <h4>Methods</h4> </td> </tr>
 
 <tr>
-<td><b>constructor(</b>arg1[, arg2]<b>)</b></code></td>
+<td><b><code>constructor(</b>arg1[, arg2]<b>)</b></code></td>
 <td>
 <img src="https://rawgit.com/venkatperi/atomdoc-md/master/assets/octicons/public.svg" alt="" height= "18px"> 
  <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/Interval.coffee#L55"><img src="https://rawgit.com/venkatperi/atomdoc-md/master/assets/octicons/code.svg" alt="" height= "18px"></a>
@@ -88,7 +88,7 @@ can be any one of a comma, semicolon, or a space</li>
 </td></tr>
 
 <tr>
-<td><b>contains(</b>other<b>)</b></code></td>
+<td><b><code>contains(</b>other<b>)</b></code></td>
 <td>
 <img src="https://rawgit.com/venkatperi/atomdoc-md/master/assets/octicons/public.svg" alt="" height= "18px"> 
  <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/Interval.coffee#L68"><img src="https://rawgit.com/venkatperi/atomdoc-md/master/assets/octicons/code.svg" alt="" height= "18px"></a>
@@ -109,7 +109,7 @@ can be any one of a comma, semicolon, or a space</li>
 </td></tr>
 
 <tr>
-<td><b>overlaps(</b>other<b>)</b></code></td>
+<td><b><code>overlaps(</b>other<b>)</b></code></td>
 <td>
 <img src="https://rawgit.com/venkatperi/atomdoc-md/master/assets/octicons/public.svg" alt="" height= "18px"> 
  <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/Interval.coffee#L84"><img src="https://rawgit.com/venkatperi/atomdoc-md/master/assets/octicons/code.svg" alt="" height= "18px"></a>
@@ -132,7 +132,7 @@ but not all points.</p>
 </td></tr>
 
 <tr>
-<td><b>within(</b>other<b>)</b></code></td>
+<td><b><code>within(</b>other<b>)</b></code></td>
 <td>
 <img src="https://rawgit.com/venkatperi/atomdoc-md/master/assets/octicons/public.svg" alt="" height= "18px"> 
  <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/Interval.coffee#L101"><img src="https://rawgit.com/venkatperi/atomdoc-md/master/assets/octicons/code.svg" alt="" height= "18px"></a>
@@ -155,7 +155,7 @@ X is completely within Y and neither of their endpoints touch.</p>
 </td></tr>
 
 <tr>
-<td><b>touches(</b>other<b>)</b></code></td>
+<td><b><code>touches(</b>other<b>)</b></code></td>
 <td>
 <img src="https://rawgit.com/venkatperi/atomdoc-md/master/assets/octicons/public.svg" alt="" height= "18px"> 
  <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/Interval.coffee#L117"><img src="https://rawgit.com/venkatperi/atomdoc-md/master/assets/octicons/code.svg" alt="" height= "18px"></a>
@@ -181,7 +181,7 @@ X is completely within Y and neither of their endpoints touch.</p>
 </td></tr>
 
 <tr>
-<td><b>disjoint(</b>other<b>)</b></code></td>
+<td><b><code>disjoint(</b>other<b>)</b></code></td>
 <td>
 <img src="https://rawgit.com/venkatperi/atomdoc-md/master/assets/octicons/public.svg" alt="" height= "18px"> 
  <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/Interval.coffee#L132"><img src="https://rawgit.com/venkatperi/atomdoc-md/master/assets/octicons/code.svg" alt="" height= "18px"></a>
@@ -204,7 +204,7 @@ i.e. if their intersection is the empty set.</p>
 </td></tr>
 
 <tr>
-<td><b>union(</b>others<b>)</b></code></td>
+<td><b><code>union(</b>others<b>)</b></code></td>
 <td>
 <img src="https://rawgit.com/venkatperi/atomdoc-md/master/assets/octicons/public.svg" alt="" height= "18px"> 
  <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/Interval.coffee#L145"><img src="https://rawgit.com/venkatperi/atomdoc-md/master/assets/octicons/code.svg" alt="" height= "18px"></a>
@@ -227,7 +227,7 @@ i.e. if their intersection is the empty set.</p>
 </td></tr>
 
 <tr>
-<td><b>intersection(</b>other<b>)</b></code></td>
+<td><b><code>intersection(</b>other<b>)</b></code></td>
 <td>
 <img src="https://rawgit.com/venkatperi/atomdoc-md/master/assets/octicons/public.svg" alt="" height= "18px"> 
  <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/Interval.coffee#L157"><img src="https://rawgit.com/venkatperi/atomdoc-md/master/assets/octicons/code.svg" alt="" height= "18px"></a>
@@ -249,7 +249,7 @@ not intersect.</li>
 </td></tr>
 
 <tr>
-<td><b>difference(</b>other<b>)</b></code></td>
+<td><b><code>difference(</b>other<b>)</b></code></td>
 <td>
 <img src="https://rawgit.com/venkatperi/atomdoc-md/master/assets/octicons/public.svg" alt="" height= "18px"> 
  <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/Interval.coffee#L174"><img src="https://rawgit.com/venkatperi/atomdoc-md/master/assets/octicons/code.svg" alt="" height= "18px"></a>
@@ -277,7 +277,7 @@ in X which are not in Y.</p>
 </td></tr>
 
 <tr>
-<td><b>xor(</b>other<b>)</b></code></td>
+<td><b><code>xor(</b>other<b>)</b></code></td>
 <td>
 <img src="https://rawgit.com/venkatperi/atomdoc-md/master/assets/octicons/public.svg" alt="" height= "18px"> 
  <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/Interval.coffee#L198"><img src="https://rawgit.com/venkatperi/atomdoc-md/master/assets/octicons/code.svg" alt="" height= "18px"></a>
@@ -307,7 +307,7 @@ Boolean logic.</p>
 </td></tr>
 
 <tr>
-<td><b>equals(</b>other<b>)</b></code></td>
+<td><b><code>equals(</b>other<b>)</b></code></td>
 <td>
 <img src="https://rawgit.com/venkatperi/atomdoc-md/master/assets/octicons/public.svg" alt="" height= "18px"> 
  <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/Interval.coffee#L220"><img src="https://rawgit.com/venkatperi/atomdoc-md/master/assets/octicons/code.svg" alt="" height= "18px"></a>
@@ -330,7 +330,7 @@ i.e same start and end points.</p>
 </td></tr>
 
 <tr>
-<td><b>toString(</b><b>)</b></code></td>
+<td><b><code>toString(</b><b>)</b></code></td>
 <td>
 <img src="https://rawgit.com/venkatperi/atomdoc-md/master/assets/octicons/public.svg" alt="" height= "18px"> 
  <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/Interval.coffee#L230"><img src="https://rawgit.com/venkatperi/atomdoc-md/master/assets/octicons/code.svg" alt="" height= "18px"></a>
