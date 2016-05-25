@@ -21,9 +21,9 @@ in the <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/I
 
 
 <table width="100%">
-    <tr>
-      <td colspan="4"><h4>Properties</h4></td>
-    </tr>
+  <tr>
+    <td colspan="4"><h4>Properties</h4></td>
+  </tr>
   
       <tr>
         <td><code>:: <b>a</b>  </code></td>
@@ -31,12 +31,12 @@ in the <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/I
         <td width="8%" align="center"><sub>instance</sub></td>
         <td width="8%" align="center"><sub><a href="#class-Interval">Interval</a></sub></td>
       </tr>
-      <tr>
-        <td colspan="4">
-          <p><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number"><code>{Number}</code></a> The start/left endpoint of this <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/Interval.coffee#L20"><code>{Interval}</code></a> </p>
+  <tr>
+    <td colspan="4">
+      <p><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number"><code>{Number}</code></a> The start/left endpoint of this <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/Interval.coffee#L20"><code>{Interval}</code></a> </p>
   
-        </td>
-      </tr>
+    </td>
+  </tr>
   
       <tr>
         <td><code>:: <b>b</b>  </code></td>
@@ -44,12 +44,12 @@ in the <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/I
         <td width="8%" align="center"><sub>instance</sub></td>
         <td width="8%" align="center"><sub><a href="#class-Interval">Interval</a></sub></td>
       </tr>
-      <tr>
-        <td colspan="4">
-          <p><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number"><code>{Number}</code></a> The end/right endpoint of this <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/Interval.coffee#L20"><code>{Interval}</code></a> </p>
+  <tr>
+    <td colspan="4">
+      <p><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number"><code>{Number}</code></a> The end/right endpoint of this <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/Interval.coffee#L20"><code>{Interval}</code></a> </p>
   
-        </td>
-      </tr>
+    </td>
+  </tr>
   
       <tr>
         <td><code>:: <b>degenerate</b>  </code></td>
@@ -57,16 +57,16 @@ in the <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/I
         <td width="8%" align="center"><sub>instance</sub></td>
         <td width="8%" align="center"><sub><a href="#class-Interval">Interval</a></sub></td>
       </tr>
-      <tr>
-        <td colspan="4">
-          <p><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean"><code>{Boolean}</code></a> True if this `{Instance}` has the same start and end points </p>
+  <tr>
+    <td colspan="4">
+      <p><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean"><code>{Boolean}</code></a> True if this `{Instance}` has the same start and end points </p>
   
-        </td>
-      </tr>
+    </td>
+  </tr>
   
-    <tr>
-      <td colspan="2"></td>
-    </tr>
+  <tr>
+    <td colspan="2"></td>
+  </tr>
   <tr>
     <td colspan="4"><h4>Methods</h4></td>
   </tr>
@@ -115,7 +115,7 @@ in the <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/I
   
       <p>  <strong>Returns</strong></p>
   <ul>
-  <li>Returns <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean"><code>{Boolean}</code></a>. True if this <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/Interval.coffee#L20"><code>{Interval}</code></a> &#x60;contains&#x60; the other other.</li>
+  <li>Returns <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean"><code>{Boolean}</code></a>. True if this <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/Interval.coffee#L20"><code>{Interval}</code></a> <code>contains</code> the other other.</li>
   </ul>
   
     </td>
@@ -262,7 +262,7 @@ in the <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/I
   
       <p>  <strong>Returns</strong></p>
   <ul>
-  <li>Returns an <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/Interval.coffee#L20"><code>{Interval}</code></a> with the intersection or &#x60;&#x60; if the two do
+  <li>Returns an <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/Interval.coffee#L20"><code>{Interval}</code></a> with the intersection or `` if the two do
   not intersect.</li>
   </ul>
   
@@ -287,10 +287,10 @@ in the <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/I
   
       <p>  <strong>Returns</strong></p>
   <ul>
-  <li>Returns the difference which is one of:</li>
-  </ul>
-  <ul>
-  <li><a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/Interval.coffee#L20"><code>{Interval}</code></a></li>
+  <li><p>Returns the difference which is one of:</p>
+  </li>
+  <li><p><a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/Interval.coffee#L20"><code>{Interval}</code></a></p>
+  </li>
   <li>{Array<a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/Interval.coffee#L20"><code>{Interval}</code></a>}
   *</li>
   </ul>
@@ -318,10 +318,10 @@ in the <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/I
   
       <p>  <strong>Returns</strong></p>
   <ul>
-  <li>Returns the difference which is one of:</li>
-  </ul>
-  <ul>
-  <li><a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/Interval.coffee#L20"><code>{Interval}</code></a></li>
+  <li><p>Returns the difference which is one of:</p>
+  </li>
+  <li><p><a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/Interval.coffee#L20"><code>{Interval}</code></a></p>
+  </li>
   <li>{Array<a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/Interval.coffee#L20"><code>{Interval}</code></a>}
   *</li>
   </ul>
