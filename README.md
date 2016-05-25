@@ -21,9 +21,12 @@ in the <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/I
 
 
 <table width="100%">
-<tr> <td colspan="2"> <h4>Properties</h4> </td> </tr>
+<tr><td colspan="2"><h5>Properties</h5></td></tr>
 
-<tr> <td ><b><code>a</code></b></td><td width="20%"> <b><sub><sup><code>PUBLIC  </code></sup></sub></b></td></tr>
+<tr>
+  <td><b><code>a</code></b></td>
+  <td width="20%"><code>Public</code></td>
+</tr>
 
 <tr><td colspan="2">
 <p> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number">{Number}</a> The start/left endpoint of this <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/Interval.coffee#L20">{Interval}</a> </p>
@@ -31,7 +34,10 @@ in the <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/I
 
 </td> </tr>
 
-<tr> <td ><b><code>b</code></b></td><td width="20%"> <b><sub><sup><code>PUBLIC  </code></sup></sub></b></td></tr>
+<tr>
+  <td><b><code>b</code></b></td>
+  <td width="20%"><code>Public</code></td>
+</tr>
 
 <tr><td colspan="2">
 <p> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number">{Number}</a> The end/right endpoint of this <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/Interval.coffee#L20">{Interval}</a> </p>
@@ -39,7 +45,10 @@ in the <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/I
 
 </td> </tr>
 
-<tr> <td ><b><code>degenerate</code></b></td><td width="20%"> <b><sub><sup><code>PUBLIC  </code></sup></sub></b></td></tr>
+<tr>
+  <td><b><code>degenerate</code></b></td>
+  <td width="20%"><code>Public</code></td>
+</tr>
 
 <tr><td colspan="2">
 <p> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean">{Boolean}</a> True if this `{Instance}` has the same start and end points </p>
