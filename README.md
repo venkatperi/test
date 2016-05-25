@@ -31,8 +31,9 @@ in the <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/I
       </tr>
       <tr>
         <td colspan="4">
-  <pre><code>      <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number">{Number}</a> The start/left endpoint of this <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/Interval.coffee#L20">{Interval}</a> 
-  </code></pre>      </td>
+          <p><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number">{Number}</a> The start/left endpoint of this <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/Interval.coffee#L20">{Interval}</a> </p>
+  
+        </td>
       </tr>
   
       <tr>
@@ -42,8 +43,9 @@ in the <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/I
       </tr>
       <tr>
         <td colspan="4">
-  <pre><code>      <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number">{Number}</a> The end/right endpoint of this <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/Interval.coffee#L20">{Interval}</a> 
-  </code></pre>      </td>
+          <p><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number">{Number}</a> The end/right endpoint of this <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/Interval.coffee#L20">{Interval}</a> </p>
+  
+        </td>
       </tr>
   
       <tr>
@@ -53,8 +55,9 @@ in the <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/I
       </tr>
       <tr>
         <td colspan="4">
-  <pre><code>      <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean">{Boolean}</a> True if this `{Instance}` has the same start and end points 
-  </code></pre>      </td>
+          <p><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean">{Boolean}</a> True if this `{Instance}` has the same start and end points </p>
+  
+        </td>
       </tr>
   
     <tr>
