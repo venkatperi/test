@@ -25,7 +25,9 @@ in the <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/I
     </tr>
   
       <tr>
-        <td><code>:: <b>a</b>
+        <td><code>:: <b>a
+          </b>
+          
         </code></td>
         <td width="8%" align="center"><sub>public</sub></td>
         <td width="8%" align="center"><sub>instance</sub></td>
@@ -39,7 +41,9 @@ in the <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/I
       </tr>
   
       <tr>
-        <td><code>:: <b>b</b>
+        <td><code>:: <b>b
+          </b>
+          
         </code></td>
         <td width="8%" align="center"><sub>public</sub></td>
         <td width="8%" align="center"><sub>instance</sub></td>
@@ -53,7 +57,9 @@ in the <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/I
       </tr>
   
       <tr>
-        <td><code>:: <b>degenerate</b>
+        <td><code>:: <b>degenerate
+          </b>
+          
         </code></td>
         <td width="8%" align="center"><sub>public</sub></td>
         <td width="8%" align="center"><sub>instance</sub></td>
@@ -74,7 +80,9 @@ in the <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/I
     </tr>
   
       <tr>
-        <td><code>:: <b>constructor</b>arg1[, arg2]
+        <td><code>:: <b>constructor
+          (</b>arg1[, arg2]
+          <b>)</b>(
         </code></td>
         <td width="8%" align="center"><sub>public</sub></td>
         <td width="8%" align="center"><sub>instance</sub></td>
@@ -103,7 +111,9 @@ in the <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/I
       </tr>
   
       <tr>
-        <td><code>:: <b>contains</b>other
+        <td><code>:: <b>contains
+          (</b>other
+          <b>)</b>(
         </code></td>
         <td width="8%" align="center"><sub>public</sub></td>
         <td width="8%" align="center"><sub>instance</sub></td>
@@ -126,7 +136,9 @@ in the <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/I
       </tr>
   
       <tr>
-        <td><code>:: <b>overlaps</b>other
+        <td><code>:: <b>overlaps
+          (</b>other
+          <b>)</b>(
         </code></td>
         <td width="8%" align="center"><sub>public</sub></td>
         <td width="8%" align="center"><sub>instance</sub></td>
@@ -151,7 +163,9 @@ in the <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/I
       </tr>
   
       <tr>
-        <td><code>:: <b>within</b>other
+        <td><code>:: <b>within
+          (</b>other
+          <b>)</b>(
         </code></td>
         <td width="8%" align="center"><sub>public</sub></td>
         <td width="8%" align="center"><sub>instance</sub></td>
@@ -176,7 +190,9 @@ in the <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/I
       </tr>
   
       <tr>
-        <td><code>:: <b>touches</b>other
+        <td><code>:: <b>touches
+          (</b>other
+          <b>)</b>(
         </code></td>
         <td width="8%" align="center"><sub>public</sub></td>
         <td width="8%" align="center"><sub>instance</sub></td>
@@ -204,7 +220,9 @@ in the <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/I
       </tr>
   
       <tr>
-        <td><code>:: <b>disjoint</b>other
+        <td><code>:: <b>disjoint
+          (</b>other
+          <b>)</b>(
         </code></td>
         <td width="8%" align="center"><sub>public</sub></td>
         <td width="8%" align="center"><sub>instance</sub></td>
@@ -229,7 +247,9 @@ in the <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/I
       </tr>
   
       <tr>
-        <td><code>:: <b>union</b>others
+        <td><code>:: <b>union
+          (</b>others
+          <b>)</b>(
         </code></td>
         <td width="8%" align="center"><sub>public</sub></td>
         <td width="8%" align="center"><sub>instance</sub></td>
@@ -256,7 +276,9 @@ in the <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/I
       </tr>
   
       <tr>
-        <td><code>:: <b>intersection</b>other
+        <td><code>:: <b>intersection
+          (</b>other
+          <b>)</b>(
         </code></td>
         <td width="8%" align="center"><sub>public</sub></td>
         <td width="8%" align="center"><sub>instance</sub></td>
@@ -280,7 +302,9 @@ in the <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/I
       </tr>
   
       <tr>
-        <td><code>:: <b>difference</b>other
+        <td><code>:: <b>difference
+          (</b>other
+          <b>)</b>(
         </code></td>
         <td width="8%" align="center"><sub>public</sub></td>
         <td width="8%" align="center"><sub>instance</sub></td>
@@ -310,7 +334,9 @@ in the <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/I
       </tr>
   
       <tr>
-        <td><code>:: <b>xor</b>other
+        <td><code>:: <b>xor
+          (</b>other
+          <b>)</b>(
         </code></td>
         <td width="8%" align="center"><sub>public</sub></td>
         <td width="8%" align="center"><sub>instance</sub></td>
@@ -342,7 +368,9 @@ in the <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/I
       </tr>
   
       <tr>
-        <td><code>:: <b>equals</b>other
+        <td><code>:: <b>equals
+          (</b>other
+          <b>)</b>(
         </code></td>
         <td width="8%" align="center"><sub>public</sub></td>
         <td width="8%" align="center"><sub>instance</sub></td>
@@ -367,7 +395,9 @@ in the <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/I
       </tr>
   
       <tr>
-        <td><code>:: <b>toString</b>
+        <td><code>:: <b>toString
+          (</b>
+          <b>)</b>(
         </code></td>
         <td width="8%" align="center"><sub>public</sub></td>
         <td width="8%" align="center"><sub>instance</sub></td>
