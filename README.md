@@ -60,12 +60,8 @@ in the <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/I
 <tr> <td colspan="2"> <h4>Methods</h4> </td> </tr>
 
 <tr>
-<td><b><code>constructor(</b>arg1[, arg2]<b>)</b></code></td>
-<td>
-<img src="https://rawgit.com/venkatperi/atomdoc-md/master/assets/octicons/public.svg" alt="" height= "18px"> 
- <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/Interval.coffee#L55"><img src="https://rawgit.com/venkatperi/atomdoc-md/master/assets/octicons/code.svg" alt="" height= "18px"></a>
- <a href="#class-Interval"><img src="https://rawgit.com/venkatperi/atomdoc-md/master/assets/octicons/arrow-up.svg" alt="" height= "18px"></a>
-</td> </tr>
+<td><code>:: <b>constructor(</b>arg1[, arg2]<b>)</b></code></td>
+<td>Public</td> </tr>
 <tr><td colspan="2">
 <ul>
 <li><code>arg1</code> can be a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">{String}</a> or an <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array">{Array}</a> or <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object">{Object}</a> or a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number">{Number}</a></li>
@@ -88,12 +84,8 @@ can be any one of a comma, semicolon, or a space</li>
 </td></tr>
 
 <tr>
-<td><b><code>contains(</b>other<b>)</b></code></td>
-<td>
-<img src="https://rawgit.com/venkatperi/atomdoc-md/master/assets/octicons/public.svg" alt="" height= "18px"> 
- <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/Interval.coffee#L68"><img src="https://rawgit.com/venkatperi/atomdoc-md/master/assets/octicons/code.svg" alt="" height= "18px"></a>
- <a href="#class-Interval"><img src="https://rawgit.com/venkatperi/atomdoc-md/master/assets/octicons/arrow-up.svg" alt="" height= "18px"></a>
-</td> </tr>
+<td><code>:: <b>contains(</b>other<b>)</b></code></td>
+<td>Public</td> </tr>
 <tr><td colspan="2">
 <ul>
 <li><code>other</code> the other <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/Interval.coffee#L20">{Interval}</a></li>
@@ -109,12 +101,8 @@ can be any one of a comma, semicolon, or a space</li>
 </td></tr>
 
 <tr>
-<td><b><code>overlaps(</b>other<b>)</b></code></td>
-<td>
-<img src="https://rawgit.com/venkatperi/atomdoc-md/master/assets/octicons/public.svg" alt="" height= "18px"> 
- <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/Interval.coffee#L84"><img src="https://rawgit.com/venkatperi/atomdoc-md/master/assets/octicons/code.svg" alt="" height= "18px"></a>
- <a href="#class-Interval"><img src="https://rawgit.com/venkatperi/atomdoc-md/master/assets/octicons/arrow-up.svg" alt="" height= "18px"></a>
-</td> </tr>
+<td><code>:: <b>overlaps(</b>other<b>)</b></code></td>
+<td>Public</td> </tr>
 <tr><td colspan="2">
 <ul>
 <li><code>other</code> the other <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/Interval.coffee#L20">{Interval}</a></li>
@@ -132,12 +120,8 @@ but not all points.</p>
 </td></tr>
 
 <tr>
-<td><b><code>within(</b>other<b>)</b></code></td>
-<td>
-<img src="https://rawgit.com/venkatperi/atomdoc-md/master/assets/octicons/public.svg" alt="" height= "18px"> 
- <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/Interval.coffee#L101"><img src="https://rawgit.com/venkatperi/atomdoc-md/master/assets/octicons/code.svg" alt="" height= "18px"></a>
- <a href="#class-Interval"><img src="https://rawgit.com/venkatperi/atomdoc-md/master/assets/octicons/arrow-up.svg" alt="" height= "18px"></a>
-</td> </tr>
+<td><code>:: <b>within(</b>other<b>)</b></code></td>
+<td>Public</td> </tr>
 <tr><td colspan="2">
 <ul>
 <li><code>other</code> the other <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/Interval.coffee#L20">{Interval}</a></li>
@@ -155,12 +139,8 @@ X is completely within Y and neither of their endpoints touch.</p>
 </td></tr>
 
 <tr>
-<td><b><code>touches(</b>other<b>)</b></code></td>
-<td>
-<img src="https://rawgit.com/venkatperi/atomdoc-md/master/assets/octicons/public.svg" alt="" height= "18px"> 
- <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/Interval.coffee#L117"><img src="https://rawgit.com/venkatperi/atomdoc-md/master/assets/octicons/code.svg" alt="" height= "18px"></a>
- <a href="#class-Interval"><img src="https://rawgit.com/venkatperi/atomdoc-md/master/assets/octicons/arrow-up.svg" alt="" height= "18px"></a>
-</td> </tr>
+<td><code>:: <b>touches(</b>other<b>)</b></code></td>
+<td>Public</td> </tr>
 <tr><td colspan="2">
 <ul>
 <li><code>other</code> the other <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/Interval.coffee#L20">{Interval}</a></li>
@@ -181,12 +161,8 @@ X is completely within Y and neither of their endpoints touch.</p>
 </td></tr>
 
 <tr>
-<td><b><code>disjoint(</b>other<b>)</b></code></td>
-<td>
-<img src="https://rawgit.com/venkatperi/atomdoc-md/master/assets/octicons/public.svg" alt="" height= "18px"> 
- <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/Interval.coffee#L132"><img src="https://rawgit.com/venkatperi/atomdoc-md/master/assets/octicons/code.svg" alt="" height= "18px"></a>
- <a href="#class-Interval"><img src="https://rawgit.com/venkatperi/atomdoc-md/master/assets/octicons/arrow-up.svg" alt="" height= "18px"></a>
-</td> </tr>
+<td><code>:: <b>disjoint(</b>other<b>)</b></code></td>
+<td>Public</td> </tr>
 <tr><td colspan="2">
 <ul>
 <li><code>other</code> the other <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/Interval.coffee#L20">{Interval}</a></li>
@@ -204,12 +180,8 @@ i.e. if their intersection is the empty set.</p>
 </td></tr>
 
 <tr>
-<td><b><code>union(</b>others<b>)</b></code></td>
-<td>
-<img src="https://rawgit.com/venkatperi/atomdoc-md/master/assets/octicons/public.svg" alt="" height= "18px"> 
- <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/Interval.coffee#L145"><img src="https://rawgit.com/venkatperi/atomdoc-md/master/assets/octicons/code.svg" alt="" height= "18px"></a>
- <a href="#class-Interval"><img src="https://rawgit.com/venkatperi/atomdoc-md/master/assets/octicons/arrow-up.svg" alt="" height= "18px"></a>
-</td> </tr>
+<td><code>:: <b>union(</b>others<b>)</b></code></td>
+<td>Public</td> </tr>
 <tr><td colspan="2">
 <ul>
 <li><code>others</code> {Array<a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/Interval.coffee#L20">{Interval}</a>} One or more intervals</li>
@@ -227,12 +199,8 @@ i.e. if their intersection is the empty set.</p>
 </td></tr>
 
 <tr>
-<td><b><code>intersection(</b>other<b>)</b></code></td>
-<td>
-<img src="https://rawgit.com/venkatperi/atomdoc-md/master/assets/octicons/public.svg" alt="" height= "18px"> 
- <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/Interval.coffee#L157"><img src="https://rawgit.com/venkatperi/atomdoc-md/master/assets/octicons/code.svg" alt="" height= "18px"></a>
- <a href="#class-Interval"><img src="https://rawgit.com/venkatperi/atomdoc-md/master/assets/octicons/arrow-up.svg" alt="" height= "18px"></a>
-</td> </tr>
+<td><code>:: <b>intersection(</b>other<b>)</b></code></td>
+<td>Public</td> </tr>
 <tr><td colspan="2">
 <ul>
 <li><code>other</code> the other <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/Interval.coffee#L20">{Interval}</a></li>
@@ -249,12 +217,8 @@ not intersect.</li>
 </td></tr>
 
 <tr>
-<td><b><code>difference(</b>other<b>)</b></code></td>
-<td>
-<img src="https://rawgit.com/venkatperi/atomdoc-md/master/assets/octicons/public.svg" alt="" height= "18px"> 
- <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/Interval.coffee#L174"><img src="https://rawgit.com/venkatperi/atomdoc-md/master/assets/octicons/code.svg" alt="" height= "18px"></a>
- <a href="#class-Interval"><img src="https://rawgit.com/venkatperi/atomdoc-md/master/assets/octicons/arrow-up.svg" alt="" height= "18px"></a>
-</td> </tr>
+<td><code>:: <b>difference(</b>other<b>)</b></code></td>
+<td>Public</td> </tr>
 <tr><td colspan="2">
 <ul>
 <li><code>other</code> the other <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/Interval.coffee#L20">{Interval}</a></li>
@@ -277,12 +241,8 @@ in X which are not in Y.</p>
 </td></tr>
 
 <tr>
-<td><b><code>xor(</b>other<b>)</b></code></td>
-<td>
-<img src="https://rawgit.com/venkatperi/atomdoc-md/master/assets/octicons/public.svg" alt="" height= "18px"> 
- <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/Interval.coffee#L198"><img src="https://rawgit.com/venkatperi/atomdoc-md/master/assets/octicons/code.svg" alt="" height= "18px"></a>
- <a href="#class-Interval"><img src="https://rawgit.com/venkatperi/atomdoc-md/master/assets/octicons/arrow-up.svg" alt="" height= "18px"></a>
-</td> </tr>
+<td><code>:: <b>xor(</b>other<b>)</b></code></td>
+<td>Public</td> </tr>
 <tr><td colspan="2">
 <ul>
 <li><code>other</code> the other <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/Interval.coffee#L20">{Interval}</a></li>
@@ -307,12 +267,8 @@ Boolean logic.</p>
 </td></tr>
 
 <tr>
-<td><b><code>equals(</b>other<b>)</b></code></td>
-<td>
-<img src="https://rawgit.com/venkatperi/atomdoc-md/master/assets/octicons/public.svg" alt="" height= "18px"> 
- <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/Interval.coffee#L220"><img src="https://rawgit.com/venkatperi/atomdoc-md/master/assets/octicons/code.svg" alt="" height= "18px"></a>
- <a href="#class-Interval"><img src="https://rawgit.com/venkatperi/atomdoc-md/master/assets/octicons/arrow-up.svg" alt="" height= "18px"></a>
-</td> </tr>
+<td><code>:: <b>equals(</b>other<b>)</b></code></td>
+<td>Public</td> </tr>
 <tr><td colspan="2">
 <ul>
 <li><code>other</code> the other <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/Interval.coffee#L20">{Interval}</a></li>
@@ -330,12 +286,8 @@ i.e same start and end points.</p>
 </td></tr>
 
 <tr>
-<td><b><code>toString(</b><b>)</b></code></td>
-<td>
-<img src="https://rawgit.com/venkatperi/atomdoc-md/master/assets/octicons/public.svg" alt="" height= "18px"> 
- <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/Interval.coffee#L230"><img src="https://rawgit.com/venkatperi/atomdoc-md/master/assets/octicons/code.svg" alt="" height= "18px"></a>
- <a href="#class-Interval"><img src="https://rawgit.com/venkatperi/atomdoc-md/master/assets/octicons/arrow-up.svg" alt="" height= "18px"></a>
-</td> </tr>
+<td><code>:: <b>toString(</b><b>)</b></code></td>
+<td>Public</td> </tr>
 <tr><td colspan="2">
 
 <p>Get a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">{String}</a> representation of this <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/Interval.coffee#L20">{Interval}</a></p>
