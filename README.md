@@ -26,7 +26,7 @@ in the <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/I
   
       <tr>
       <td><code>:: <b>a</b>  <td width="8%"><sub>public</sub></td>
-        <td width="8%"><sub>instance</sub></td>
+        <td valign="top" width="8%"><sub>instance</sub></td>
         <td width="8%"><sub><a href="#class-Interval">Interval</a></sub></td>
       </tr>
       <tr>
