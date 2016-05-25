@@ -91,8 +91,7 @@ in the <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/I
   <li>a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number">{Number}</a>, in which case &#x60;arg2&#x60; must be defined</li>
   </ul>
   
-          <p><strong>Returns</strong></p>
-  
+          
         </td>
       </tr>
   
@@ -110,7 +109,7 @@ in the <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/I
   
           <p>Checks if this <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/Interval.coffee#L20">{Interval}</a> contains the other.</p>
   
-          <p><strong>Returns</strong></p>
+          <p>  <strong>Returns</strong></p>
   <ul>
   <li>Returns <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean">{Boolean}</a>. True if this <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/Interval.coffee#L20">{Interval}</a> &#x60;contains&#x60; the other other.</li>
   </ul>
@@ -134,7 +133,7 @@ in the <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/I
   <p>For two <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/Interval.coffee#L20">{Interval}</a>s to overlap they must have some points
   but not all points.</p>
   
-          <p><strong>Returns</strong></p>
+          <p>  <strong>Returns</strong></p>
   <ul>
   <li>Returns <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean">{Boolean}</a>. True if this <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/Interval.coffee#L20">{Interval}</a> overlaps the other.</li>
   </ul>
@@ -158,7 +157,7 @@ in the <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/I
   <p><a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/Interval.coffee#L20">{Interval}</a> X is said to be within another <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/Interval.coffee#L20">{Interval}</a> Y if
   X is completely within Y and neither of their endpoints touch.</p>
   
-          <p><strong>Returns</strong></p>
+          <p>  <strong>Returns</strong></p>
   <ul>
   <li>Returns <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean">{Boolean}</a>. True if this <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/Interval.coffee#L20">{Interval}</a> is within the other.</li>
   </ul>
@@ -185,7 +184,7 @@ in the <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/I
   <li>their interiors do not share any common points</li>
   </ul>
   
-          <p><strong>Returns</strong></p>
+          <p>  <strong>Returns</strong></p>
   <ul>
   <li>Returns <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean">{Boolean}</a>. True if this <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/Interval.coffee#L20">{Interval}</a> touches the other.</li>
   </ul>
@@ -209,7 +208,7 @@ in the <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/I
   <p>Two <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/Interval.coffee#L20">{Interval}</a>s are disjoint if they have no points in common,
   i.e. if their intersection is the empty set.</p>
   
-          <p><strong>Returns</strong></p>
+          <p>  <strong>Returns</strong></p>
   <ul>
   <li>Returns <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean">{Boolean}</a>. True if this <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/Interval.coffee#L20">{Interval}</a> is disjoint with the other.</li>
   </ul>
@@ -232,10 +231,12 @@ in the <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/I
           <p>Calculates the union of the given `{Intervals}`</p>
   <p>A union of intervals can result in an array of unconnected parts.</p>
   
-          <p><strong>Returns</strong></p>
+          <p>  <strong>Returns</strong></p>
   <ul>
-  <li>Returns <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/Interval.coffee#L20">{Interval}</a></li>
-  <li>Returns <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array">{Array}</a> of <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/Interval.coffee#L20">{Interval}</a></li>
+  <li><p>Returns <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/Interval.coffee#L20">{Interval}</a></p>
+  </li>
+  <li><p>Returns <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array">{Array}</a> of <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/Interval.coffee#L20">{Interval}</a></p>
+  </li>
   </ul>
   
         </td>
@@ -255,7 +256,7 @@ in the <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/I
   
           <p>Calculates the intersection, i.e. the points where they concur.</p>
   
-          <p><strong>Returns</strong></p>
+          <p>  <strong>Returns</strong></p>
   <ul>
   <li>Returns an <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/Interval.coffee#L20">{Interval}</a> with the intersection or &#x60;&#x60; if the two do
   not intersect.</li>
@@ -280,7 +281,7 @@ in the <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/I
   <p>The difference between <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/Interval.coffee#L20">{Interval}</a> X and Y is all of the points
   in X which are not in Y.</p>
   
-          <p><strong>Returns</strong></p>
+          <p>  <strong>Returns</strong></p>
   <ul>
   <li>Returns the difference which is one of:</li>
   </ul>
@@ -311,7 +312,7 @@ in the <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/I
   B and B with respect to  A, and corresponds to the XOR operation in
   Boolean logic.</p>
   
-          <p><strong>Returns</strong></p>
+          <p>  <strong>Returns</strong></p>
   <ul>
   <li>Returns the difference which is one of:</li>
   </ul>
@@ -340,7 +341,7 @@ in the <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/I
   <p>Two intervals are equal if their line segments are equal,
   i.e same start and end points.</p>
   
-          <p><strong>Returns</strong></p>
+          <p>  <strong>Returns</strong></p>
   <ul>
   <li>Returns <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean">{Boolean}</a>. True if the <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/Interval.coffee#L20">{Interval}</a>s are equal.</li>
   </ul>
@@ -359,8 +360,7 @@ in the <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/I
           <p>Get a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">{String}</a> representation of this <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/Interval.coffee#L20">{Interval}</a></p>
   <p>Return <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">{String}</a></p>
   
-          <p><strong>Returns</strong></p>
-  
+          
         </td>
       </tr>
   
