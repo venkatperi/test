@@ -288,7 +288,7 @@ Class |  Summary
   
       <p>Invoke the given callback whenever {::beep} is called.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` on which <code>.dispose()</code> can be called to unsubscribe.</li>
   </ul>
@@ -322,7 +322,7 @@ Class |  Summary
       <p>Invoke the given callback when there is an unhandled error, but
   before the devtools pop open</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` on which <code>.dispose()</code> can be called to unsubscribe.</li>
   </ul>
@@ -354,7 +354,7 @@ Class |  Summary
   
       <p>Invoke the given callback whenever there is an unhandled error.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` on which <code>.dispose()</code> can be called to unsubscribe.</li>
   </ul>
@@ -372,7 +372,7 @@ Class |  Summary
     <td colspan="4">
       
       
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean">Boolean</a> that is <code>true</code> if the current window is in development mode.</li>
   </ul>
@@ -390,7 +390,7 @@ Class |  Summary
     <td colspan="4">
       
       
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean">Boolean</a> that is <code>true</code> if the current window is in safe mode.</li>
   </ul>
@@ -408,7 +408,7 @@ Class |  Summary
     <td colspan="4">
       
       
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean">Boolean</a> that is <code>true</code> if the current window is running specs.</li>
   </ul>
@@ -427,7 +427,7 @@ Class |  Summary
       
       <p>Get the version of the Atom application.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns the version text <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">String</a>.</li>
   </ul>
@@ -445,7 +445,7 @@ Class |  Summary
     <td colspan="4">
       
       
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean">Boolean</a> that is <code>true</code> if the current version is an official release.</li>
   </ul>
@@ -466,7 +466,7 @@ Class |  Summary
   <p>This time include things like loading and activating packages, creating
   DOM elements for the editor, and reading the config.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns the <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number">Number</a> of milliseconds taken to load the window or null
   if the window hasn&#39;t finished loading yet.</li>
@@ -486,7 +486,7 @@ Class |  Summary
       
       <p>Get the load settings for the current window.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns an <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a> containing all the load setting key/value pairs.</li>
   </ul>
@@ -567,7 +567,7 @@ Class |  Summary
       
       <p>Get the size of current window.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns an <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a> in the format <code>{width: 1000, height: 700}</code></li>
   </ul>
@@ -605,7 +605,7 @@ Class |  Summary
       
       <p>Get the position of current window.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns an <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a> in the format <code>{x: 10, y: 20}</code></li>
   </ul>
@@ -732,7 +732,7 @@ Class |  Summary
     <td colspan="4">
       
       
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean">Boolean</a> that is <code>true</code> if the current window is maximized.</li>
   </ul>
@@ -750,7 +750,7 @@ Class |  Summary
     <td colspan="4">
       
       
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean">Boolean</a> that is <code>true</code> if the current window is in full screen mode.</li>
   </ul>
@@ -822,7 +822,7 @@ Class |  Summary
   
       <p>A flexible way to open a dialog akin to an alert dialog.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns the chosen button index <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number">Number</a> if the buttons option was an array.</li>
   </ul>
@@ -841,7 +841,7 @@ Class |  Summary
       
       <p>Open the dev tools for the current window.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a> that resolves when the DevTools have been opened.</li>
   </ul>
@@ -860,7 +860,7 @@ Class |  Summary
       
       <p>Toggle the visibility of the dev tools for the current window.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a> that resolves when the DevTools have been opened or
   closed.</li>
@@ -1014,7 +1014,7 @@ Node&#39;s ChildProcess.</p>
   You can call <code>handle()</code> on the object passed to your callback to indicate
   that you have handled this error.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}`</li>
   </ul>
@@ -1085,7 +1085,7 @@ Node&#39;s ChildProcess.</p>
       
       <p>Read the text from the clipboard.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">String</a>.</li>
   </ul>
@@ -1105,7 +1105,7 @@ Node&#39;s ChildProcess.</p>
       <p>Read the text from the clipboard and return both the text and the
   associated metadata.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li><p>Returns an <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a> with the following keys:</p>
   </li>
@@ -1147,7 +1147,7 @@ at the key path is of type &#39;color&#39;. </p>
   
       <p>Parse a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">String</a> or <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a> into a <a href="https://github.com/atom/atom/blob/v1.9.0-dev/src/color.coffee#L7">Color</a>.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a <a href="https://github.com/atom/atom/blob/v1.9.0-dev/src/color.coffee#L7">Color</a> or <code>null</code> if it cannot be parsed.</li>
   </ul>
@@ -1165,7 +1165,7 @@ at the key path is of type &#39;color&#39;. </p>
     <td colspan="4">
       
       
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">String</a> in the form <code>&#39;#abcdef&#39;</code>.</li>
   </ul>
@@ -1183,7 +1183,7 @@ at the key path is of type &#39;color&#39;. </p>
     <td colspan="4">
       
       
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">String</a> in the form <code>&#39;rgba(25, 50, 75, .9)&#39;</code>.</li>
   </ul>
@@ -1247,7 +1247,7 @@ bubbling process and prevent invocation of additional listeners.</p>
       
       <p>Add one or more command listeners associated with a selector.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` on which <code>.dispose()</code> can be called to remove the
   added command handler(s).</li>
@@ -1273,7 +1273,7 @@ bubbling process and prevent invocation of additional listeners.</p>
   
       <p>Find all registered commands matching a query.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li><p>Returns an <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array">Array</a> of <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a>s containing the following keys:</p>
   </li>
@@ -1639,7 +1639,7 @@ ordering with the order key.</p>
     # do stuff with value
   </code></pre>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` with the following keys on which you can call
   <code>.dispose()</code> to unsubscribe.</li>
@@ -1675,7 +1675,7 @@ ordering with the order key.</p>
       <p>Add a listener for changes to a given key path. If <code>keyPath</code> is
   not specified, your callback will be called on changes to any key.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` with the following keys on which you can call
   <code>.dispose()</code> to unsubscribe.</li>
@@ -1726,7 +1726,7 @@ ordering with the order key.</p>
   atom.config.get(&#39;editor.tabLength&#39;, scope: scopeDescriptor) # =&gt; 2
   </code></pre>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns the value from Atom&#39;s default settings, the user&#39;s configuration
   file in the type specified by the configuration schema.</li>
@@ -1751,7 +1751,7 @@ ordering with the order key.</p>
       <p>Get all of the values for the given key-path, along with their
   associated scope selector.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li><p>Returns an <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array">Array</a> of <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a>s with the following keys:</p>
   </li>
@@ -1802,7 +1802,7 @@ ordering with the order key.</p>
   atom.config.get(&#39;editor.tabLength&#39;, scope: [&#39;source.js&#39;]) # =&gt; 4
   </code></pre>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li><p>Returns a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean">Boolean</a></p>
   </li>
@@ -1869,7 +1869,7 @@ ordering with the order key.</p>
   you what type the keyPath expects, and other metadata about the config
   option.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li><p>Returns an <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a> eg. <code>{type: &#39;integer&#39;, default: 23, minimum: 1}</code>.</p>
   </li>
@@ -1982,7 +1982,7 @@ global.</p>
   
       <p>Add context menu items scoped by CSS selectors.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` on which <code>.dispose()</code> can be called to remove the
   added menu items.</li>
@@ -2034,7 +2034,7 @@ of a `{DisplayMarker}`. </p>
   
       <p>Calls your <code>callback</code> when the cursor has been moved.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` on which <code>.dispose()</code> can be called to unsubscribe.</li>
   </ul>
@@ -2056,7 +2056,7 @@ of a `{DisplayMarker}`. </p>
   
       <p>Calls your <code>callback</code> when the cursor is destroyed</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` on which <code>.dispose()</code> can be called to unsubscribe.</li>
   </ul>
@@ -2081,7 +2081,7 @@ of a `{DisplayMarker}`. </p>
   
       <p>Calls your <code>callback</code> when the cursor&#39;s visibility has changed</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` on which <code>.dispose()</code> can be called to unsubscribe.</li>
   </ul>
@@ -2121,7 +2121,7 @@ of a `{DisplayMarker}`. </p>
     <td colspan="4">
       
       
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns the screen position of the cursor as a `{Point}`.</li>
   </ul>
@@ -2161,7 +2161,7 @@ of a `{DisplayMarker}`. </p>
     <td colspan="4">
       
       
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns the current buffer position as an Array.</li>
   </ul>
@@ -2179,7 +2179,7 @@ of a `{DisplayMarker}`. </p>
     <td colspan="4">
       
       
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns the cursor&#39;s current screen row.</li>
   </ul>
@@ -2197,7 +2197,7 @@ of a `{DisplayMarker}`. </p>
     <td colspan="4">
       
       
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns the cursor&#39;s current screen column.</li>
   </ul>
@@ -2230,7 +2230,7 @@ of a `{DisplayMarker}`. </p>
     <td colspan="4">
       
       
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns the cursor&#39;s current buffer column.</li>
   </ul>
@@ -2248,7 +2248,7 @@ of a `{DisplayMarker}`. </p>
     <td colspan="4">
       
       
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns the cursor&#39;s current buffer row of text excluding its line
   ending.</li>
@@ -2267,7 +2267,7 @@ of a `{DisplayMarker}`. </p>
     <td colspan="4">
       
       
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns whether the cursor is at the start of a line.</li>
   </ul>
@@ -2285,7 +2285,7 @@ of a `{DisplayMarker}`. </p>
     <td colspan="4">
       
       
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns whether the cursor is on the line return character.</li>
   </ul>
@@ -2303,7 +2303,7 @@ of a `{DisplayMarker}`. </p>
     <td colspan="4">
       
       
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns the underlying `{DisplayMarker}` for the cursor.
   Useful with overlay <a href="https://github.com/atom/atom/blob/v1.9.0-dev/src/decoration.coffee#L37">Decoration</a>s.</li>
@@ -2325,7 +2325,7 @@ of a `{DisplayMarker}`. </p>
   <p>&quot;Surrounded&quot; here means that the character directly before and after the
   cursor are both whitespace.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean">Boolean</a>.</li>
   </ul>
@@ -2345,7 +2345,7 @@ of a `{DisplayMarker}`. </p>
       <p>This method returns false if the character before or after the cursor is
   whitespace.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li><p>Returns whether the cursor is currently between a word and non-word
   character. The non-word characters are defined by the
@@ -2374,7 +2374,7 @@ of a `{DisplayMarker}`. </p>
   </ul>
   
       
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li><p>Returns whether this cursor is between a word&#39;s start and end.</p>
   </li>
@@ -2395,7 +2395,7 @@ of a `{DisplayMarker}`. </p>
     <td colspan="4">
       
       
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns the indentation level of the current line.</li>
   </ul>
@@ -2414,7 +2414,7 @@ of a `{DisplayMarker}`. </p>
       
       <p>Retrieves the scope descriptor for the cursor&#39;s current position.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a <a href="https://github.com/atom/atom/blob/v1.9.0-dev/src/scope-descriptor.coffee#L21">ScopeDescriptor</a></li>
   </ul>
@@ -2432,7 +2432,7 @@ of a `{DisplayMarker}`. </p>
     <td colspan="4">
       
       
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns true if this cursor has no non-whitespace characters before
   its current position.</li>
@@ -2453,7 +2453,7 @@ of a `{DisplayMarker}`. </p>
       <p>Identifies if this cursor is the last in the <a href="https://github.com/atom/atom/blob/v1.9.0-dev/src/text-editor.coffee#L60">TextEditor</a>.</p>
   <p>&quot;Last&quot; is defined as the most recently added cursor.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean">Boolean</a>.</li>
   </ul>
@@ -2822,7 +2822,7 @@ of a `{DisplayMarker}`. </p>
   </ul>
   
       
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns buffer position of previous word boundary. It might be on
   the current word, or the previous word.</li>
@@ -2847,7 +2847,7 @@ of a `{DisplayMarker}`. </p>
   </ul>
   
       
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns buffer position of the next word boundary. It might be on
   the current word, or the previous word.</li>
@@ -2875,7 +2875,7 @@ of a `{DisplayMarker}`. </p>
   
       <p>Retrieves the buffer position of where the current word starts.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Range}`.</li>
   </ul>
@@ -2901,7 +2901,7 @@ of a `{DisplayMarker}`. </p>
   
       <p>Retrieves the buffer position of where the current word ends.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Range}`.</li>
   </ul>
@@ -2926,7 +2926,7 @@ of a `{DisplayMarker}`. </p>
   
       <p>Retrieves the buffer position of where the next word starts.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Range}`</li>
   </ul>
@@ -2950,7 +2950,7 @@ of a `{DisplayMarker}`. </p>
   </ul>
   
       
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns the buffer Range occupied by the word located under the cursor.</li>
   </ul>
@@ -2974,7 +2974,7 @@ of a `{DisplayMarker}`. </p>
   </ul>
   
       
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns the buffer Range for the current line.</li>
   </ul>
@@ -2994,7 +2994,7 @@ of a `{DisplayMarker}`. </p>
       <p>Retrieves the range for the current paragraph.</p>
   <p>A paragraph is defined as a block of text surrounded by empty lines or comments.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Range}`.</li>
   </ul>
@@ -3012,7 +3012,7 @@ of a `{DisplayMarker}`. </p>
     <td colspan="4">
       
       
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns the characters preceding the cursor in the current word.</li>
   </ul>
@@ -3045,7 +3045,7 @@ of a `{DisplayMarker}`. </p>
     <td colspan="4">
       
       
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns the visibility of the cursor.</li>
   </ul>
@@ -3119,7 +3119,7 @@ of a `{DisplayMarker}`. </p>
   
       <p>Get the RegExp used by the cursor to determine what a &quot;word&quot; is.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp">RegExp</a>.</li>
   </ul>
@@ -3144,7 +3144,7 @@ of a `{DisplayMarker}`. </p>
   
       <p>Get the RegExp used by the cursor to determine what a &quot;subword&quot; is.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp">RegExp</a>.</li>
   </ul>
@@ -3219,7 +3219,7 @@ the marker. </p>
   
       <p>When the <a href="https://github.com/atom/atom/blob/v1.9.0-dev/src/decoration.coffee#L37">Decoration</a> is updated via {Decoration::update}.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` on which <code>.dispose()</code> can be called to unsubscribe.</li>
   </ul>
@@ -3241,7 +3241,7 @@ the marker. </p>
   
       <p>Invoke the given callback when the <a href="https://github.com/atom/atom/blob/v1.9.0-dev/src/decoration.coffee#L37">Decoration</a> is destroyed</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` on which <code>.dispose()</code> can be called to unsubscribe.</li>
   </ul>
@@ -3274,7 +3274,7 @@ the marker. </p>
     <td colspan="4">
       
       
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns the marker associated with this <a href="https://github.com/atom/atom/blob/v1.9.0-dev/src/decoration.coffee#L37">Decoration</a></li>
   </ul>
@@ -3292,7 +3292,7 @@ the marker. </p>
     <td colspan="4">
       
       
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns the <a href="https://github.com/atom/atom/blob/v1.9.0-dev/src/decoration.coffee#L37">Decoration</a>&#39;s properties.</li>
   </ul>
@@ -3415,7 +3415,7 @@ repo.getShortHead(&#39;vendor/path/to/a/submodule&#39;) # &#39;dead1234&#39;
   
       <p>Creates a new GitRepository instance.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a <a href="https://github.com/atom/atom/blob/v1.9.0-dev/src/git-repository.coffee#L44">GitRepository</a> instance or <code>null</code> if the repository could not be opened.</li>
   </ul>
@@ -3455,7 +3455,7 @@ repo.getShortHead(&#39;vendor/path/to/a/submodule&#39;) # &#39;dead1234&#39;
       <p>Invoke the given callback when this GitRepository&#39;s destroy() method
   is invoked.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` on which <code>.dispose()</code> can be called to unsubscribe.</li>
   </ul>
@@ -3486,7 +3486,7 @@ repo.getShortHead(&#39;vendor/path/to/a/submodule&#39;) # &#39;dead1234&#39;
   changed. When a file is updated, reloaded, etc, and the status changes, this
   will be fired.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` on which <code>.dispose()</code> can be called to unsubscribe.</li>
   </ul>
@@ -3511,7 +3511,7 @@ repo.getShortHead(&#39;vendor/path/to/a/submodule&#39;) # &#39;dead1234&#39;
   repo is checked. If any of them have changed, this will be fired. Call
   {::getPathStatus(path)} to get the status for your path of choice.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` on which <code>.dispose()</code> can be called to unsubscribe.</li>
   </ul>
@@ -3531,7 +3531,7 @@ repo.getShortHead(&#39;vendor/path/to/a/submodule&#39;) # &#39;dead1234&#39;
       <p>A <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">String</a> indicating the type of version control system used by
   this repository.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns <code>&quot;git&quot;</code>.</li>
   </ul>
@@ -3549,7 +3549,7 @@ repo.getShortHead(&#39;vendor/path/to/a/submodule&#39;) # &#39;dead1234&#39;
     <td colspan="4">
       
       
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns the <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">String</a> path of the repository.</li>
   </ul>
@@ -3567,7 +3567,7 @@ repo.getShortHead(&#39;vendor/path/to/a/submodule&#39;) # &#39;dead1234&#39;
     <td colspan="4">
       
       
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns the <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">String</a> working directory path of the repository.</li>
   </ul>
@@ -3585,7 +3585,7 @@ repo.getShortHead(&#39;vendor/path/to/a/submodule&#39;) # &#39;dead1234&#39;
     <td colspan="4">
       
       
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns true if at the root, false if in a subfolder of the
   repository.</li>
@@ -3619,7 +3619,7 @@ repo.getShortHead(&#39;vendor/path/to/a/submodule&#39;) # &#39;dead1234&#39;
     <td colspan="4">
       
       
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns true if the given branch exists.</li>
   </ul>
@@ -3644,7 +3644,7 @@ repo.getShortHead(&#39;vendor/path/to/a/submodule&#39;) # &#39;dead1234&#39;
   <code>refs/remotes</code>.  It also shortens the SHA-1 of a detached <code>HEAD</code> to 7
   characters.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">String</a>.</li>
   </ul>
@@ -3666,7 +3666,7 @@ repo.getShortHead(&#39;vendor/path/to/a/submodule&#39;) # &#39;dead1234&#39;
   
       <p>Is the given path a submodule in the repository?</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean">Boolean</a>.</li>
   </ul>
@@ -3688,7 +3688,7 @@ repo.getShortHead(&#39;vendor/path/to/a/submodule&#39;) # &#39;dead1234&#39;
   </ul>
   
       
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns the number of commits behind the current branch is from the
   its upstream remote branch.</li>
@@ -3712,7 +3712,7 @@ repo.getShortHead(&#39;vendor/path/to/a/submodule&#39;) # &#39;dead1234&#39;
       <p>Get the cached ahead/behind commit counts for the current branch&#39;s
   upstream branch.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li><p>Returns an <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a> with the following keys:</p>
   </li>
@@ -3737,7 +3737,7 @@ repo.getShortHead(&#39;vendor/path/to/a/submodule&#39;) # &#39;dead1234&#39;
   </ul>
   
       
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns the git configuration value specified by the key.</li>
   </ul>
@@ -3758,7 +3758,7 @@ repo.getShortHead(&#39;vendor/path/to/a/submodule&#39;) # &#39;dead1234&#39;
   </ul>
   
       
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns the origin url of the repository.</li>
   </ul>
@@ -3779,7 +3779,7 @@ repo.getShortHead(&#39;vendor/path/to/a/submodule&#39;) # &#39;dead1234&#39;
   </ul>
   
       
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li><p>Returns the upstream branch for the current HEAD, or null if there
   is no upstream branch for the current HEAD.</p>
@@ -3805,7 +3805,7 @@ repo.getShortHead(&#39;vendor/path/to/a/submodule&#39;) # &#39;dead1234&#39;
   
       <p>Gets all the local and remote references.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li><p>Returns an <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a> with the following keys:</p>
   </li>
@@ -3832,7 +3832,7 @@ repo.getShortHead(&#39;vendor/path/to/a/submodule&#39;) # &#39;dead1234&#39;
   </ul>
   
       
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns the current <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">String</a> SHA for the given reference.</li>
   </ul>
@@ -3853,7 +3853,7 @@ repo.getShortHead(&#39;vendor/path/to/a/submodule&#39;) # &#39;dead1234&#39;
   </ul>
   
       
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li><p>Returns true if the given path is modified.</p>
   </li>
@@ -3877,7 +3877,7 @@ repo.getShortHead(&#39;vendor/path/to/a/submodule&#39;) # &#39;dead1234&#39;
   </ul>
   
       
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li><p>Returns true if the given path is new.</p>
   </li>
@@ -3902,7 +3902,7 @@ repo.getShortHead(&#39;vendor/path/to/a/submodule&#39;) # &#39;dead1234&#39;
   
       <p>Is the given path ignored?</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean">Boolean</a> that&#39;s true if the <code>path</code> is ignored.</li>
   </ul>
@@ -3924,7 +3924,7 @@ repo.getShortHead(&#39;vendor/path/to/a/submodule&#39;) # &#39;dead1234&#39;
   
       <p>Get the status of a directory in the repository&#39;s working directory.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number">Number</a> representing the status. This value can be passed to
   {::isStatusModified} or {::isStatusNew} to get more information.</li>
@@ -3945,7 +3945,7 @@ repo.getShortHead(&#39;vendor/path/to/a/submodule&#39;) # &#39;dead1234&#39;
       <p>Get the status of a single path in the repository.</p>
   <p><code>path</code> A <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">String</a> repository-relative path.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number">Number</a> representing the status. This value can be passed to
   {::isStatusModified} or {::isStatusNew} to get more information.</li>
@@ -3968,7 +3968,7 @@ repo.getShortHead(&#39;vendor/path/to/a/submodule&#39;) # &#39;dead1234&#39;
   
       <p>Get the cached status for the given path.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a status <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number">Number</a> or null if the path is not in the cache.</li>
   </ul>
@@ -3989,7 +3989,7 @@ repo.getShortHead(&#39;vendor/path/to/a/submodule&#39;) # &#39;dead1234&#39;
   </ul>
   
       
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li><p>Returns true if the given status indicates modification.</p>
   </li>
@@ -4013,7 +4013,7 @@ repo.getShortHead(&#39;vendor/path/to/a/submodule&#39;) # &#39;dead1234&#39;
   </ul>
   
       
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li><p>Returns true if the given status indicates a new path.</p>
   </li>
@@ -4040,7 +4040,7 @@ repo.getShortHead(&#39;vendor/path/to/a/submodule&#39;) # &#39;dead1234&#39;
   <p>This compares the working directory contents of the path to the <code>HEAD</code>
   version.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li><p>Returns an <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a> with the following keys:</p>
   </li>
@@ -4068,7 +4068,7 @@ repo.getShortHead(&#39;vendor/path/to/a/submodule&#39;) # &#39;dead1234&#39;
       <p>Retrieves the line diffs comparing the <code>HEAD</code> version of the given
   path and the given text.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li><p>Returns an <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array">Array</a> of hunk <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a>s with the following keys:</p>
   </li>
@@ -4101,7 +4101,7 @@ repo.getShortHead(&#39;vendor/path/to/a/submodule&#39;) # &#39;dead1234&#39;
     git checkout HEAD -- &lt;path&gt;
   </code></pre>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean">Boolean</a> that&#39;s true if the method was successful.</li>
   </ul>
@@ -4124,7 +4124,7 @@ repo.getShortHead(&#39;vendor/path/to/a/submodule&#39;) # &#39;dead1234&#39;
   
       <p>Checks out a branch in your repository.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a Boolean that&#39;s true if the method was successful.</li>
   </ul>
@@ -4167,7 +4167,7 @@ language-specific comment regexes. See {::getProperty} for more details. </p>
   <p>This picks the best match by checking the file path and contents against
   each grammar.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Grammar}`, never null.</li>
   </ul>
@@ -4185,7 +4185,7 @@ language-specific comment regexes. See {::getProperty} for more details. </p>
     <td colspan="4">
       
       
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number">Number</a> representing how well the grammar matches the
   <code>filePath</code> and <code>contents</code>.</li>
@@ -4208,7 +4208,7 @@ language-specific comment regexes. See {::getProperty} for more details. </p>
   
       <p>Get the grammar override for the given file path.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Grammar}` or .</li>
   </ul>
@@ -4231,7 +4231,7 @@ language-specific comment regexes. See {::getProperty} for more details. </p>
   
       <p>Set the grammar override for the given file path.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Grammar}` or .</li>
   </ul>
@@ -4253,7 +4253,7 @@ language-specific comment regexes. See {::getProperty} for more details. </p>
   
       <p>Remove the grammar override for the given file path.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns .</li>
   </ul>
@@ -4272,7 +4272,7 @@ language-specific comment regexes. See {::getProperty} for more details. </p>
       
       <p>Remove all grammar overrides.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns .</li>
   </ul>
@@ -4328,7 +4328,7 @@ language-specific comment regexes. See {::getProperty} for more details. </p>
   
       <p>Calls your <code>callback</code> when the gutter&#39;s visibility changes.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` on which <code>.dispose()</code> can be called to unsubscribe.</li>
   </ul>
@@ -4350,7 +4350,7 @@ language-specific comment regexes. See {::getProperty} for more details. </p>
   
       <p>Calls your <code>callback</code> when the gutter is destroyed.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` on which <code>.dispose()</code> can be called to unsubscribe.</li>
   </ul>
@@ -4399,7 +4399,7 @@ language-specific comment regexes. See {::getProperty} for more details. </p>
       
       <p>Determine whether the gutter is visible.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean">Boolean</a>.</li>
   </ul>
@@ -4427,7 +4427,7 @@ language-specific comment regexes. See {::getProperty} for more details. </p>
   is invalidated, or is destroyed, the decoration will be updated to reflect
   the marker&#39;s state.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a <a href="https://github.com/atom/atom/blob/v1.9.0-dev/src/decoration.coffee#L37">Decoration</a> object</li>
   </ul>
@@ -4477,7 +4477,7 @@ layer. Created via {TextEditor::decorateMarkerLayer}. </p>
       
       <p>Determine whether this decoration is destroyed.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean">Boolean</a>.</li>
   </ul>
@@ -4496,7 +4496,7 @@ layer. Created via {TextEditor::decorateMarkerLayer}. </p>
       
       <p>Get this decoration&#39;s properties.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns an <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a>.</li>
   </ul>
@@ -4612,7 +4612,7 @@ structure under a <code>menu</code> key.</p>
   
       <p>Adds the given items to the application menu.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` on which <code>.dispose()</code> can be called to remove the
   added menu items.</li>
@@ -4671,7 +4671,7 @@ global. </p>
   
       <p>Invoke the given callback after a notification has been added.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` on which <code>.dispose()</code> can be called to unsubscribe.</li>
   </ul>
@@ -4810,7 +4810,7 @@ global. </p>
       
       <p>Get all the notifications.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns an <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array">Array</a> of <a href="https://github.com/atom/atom/blob/v1.9.0-dev/src/notification.coffee#L6">Notification</a>s.</li>
   </ul>
@@ -4847,7 +4847,7 @@ global. </p>
   
       <p>Invoke the given callback when the notification is dismissed.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` on which <code>.dispose()</code> can be called to unsubscribe.</li>
   </ul>
@@ -4869,7 +4869,7 @@ global. </p>
   
       <p>Invoke the given callback when the notification is displayed.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` on which <code>.dispose()</code> can be called to unsubscribe.</li>
   </ul>
@@ -4887,7 +4887,7 @@ global. </p>
     <td colspan="4">
       
       
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns the <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">String</a> type.</li>
   </ul>
@@ -4905,7 +4905,7 @@ global. </p>
     <td colspan="4">
       
       
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns the <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">String</a> message.</li>
   </ul>
@@ -4971,7 +4971,7 @@ settings and also by calling <code>enablePackage()/disablePackage()</code>. </p>
   
       <p>Invoke the given callback when all packages have been loaded.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` on which <code>.dispose()</code> can be called to unsubscribe.</li>
   </ul>
@@ -4993,7 +4993,7 @@ settings and also by calling <code>enablePackage()/disablePackage()</code>. </p>
   
       <p>Invoke the given callback when all packages have been activated.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` on which <code>.dispose()</code> can be called to unsubscribe.</li>
   </ul>
@@ -5018,7 +5018,7 @@ settings and also by calling <code>enablePackage()/disablePackage()</code>. </p>
   
       <p>Invoke the given callback when a package is activated.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` on which <code>.dispose()</code> can be called to unsubscribe.</li>
   </ul>
@@ -5043,7 +5043,7 @@ settings and also by calling <code>enablePackage()/disablePackage()</code>. </p>
   
       <p>Invoke the given callback when a package is deactivated.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` on which <code>.dispose()</code> can be called to unsubscribe.</li>
   </ul>
@@ -5068,7 +5068,7 @@ settings and also by calling <code>enablePackage()/disablePackage()</code>. </p>
   
       <p>Invoke the given callback when a package is loaded.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` on which <code>.dispose()</code> can be called to unsubscribe.</li>
   </ul>
@@ -5093,7 +5093,7 @@ settings and also by calling <code>enablePackage()/disablePackage()</code>. </p>
   
       <p>Invoke the given callback when a package is unloaded.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` on which <code>.dispose()</code> can be called to unsubscribe.</li>
   </ul>
@@ -5129,7 +5129,7 @@ settings and also by calling <code>enablePackage()/disablePackage()</code>. </p>
       
       <p>Get the paths being used to look for packages.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns an <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array">Array</a> of <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">String</a> directory paths.</li>
   </ul>
@@ -5170,7 +5170,7 @@ settings and also by calling <code>enablePackage()/disablePackage()</code>. </p>
   
       <p>Is the package with the given name bundled with Atom?</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean">Boolean</a>.</li>
   </ul>
@@ -5192,7 +5192,7 @@ settings and also by calling <code>enablePackage()/disablePackage()</code>. </p>
   
       <p>Enable the package with the given name.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns the <a href="https://github.com/atom/atom/blob/v1.9.0-dev/src/package.coffee#L16">Package</a> that was enabled or null if it isn&#39;t loaded.</li>
   </ul>
@@ -5214,7 +5214,7 @@ settings and also by calling <code>enablePackage()/disablePackage()</code>. </p>
   
       <p>Disable the package with the given name.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns the <a href="https://github.com/atom/atom/blob/v1.9.0-dev/src/package.coffee#L16">Package</a> that was disabled or null if it isn&#39;t loaded.</li>
   </ul>
@@ -5236,7 +5236,7 @@ settings and also by calling <code>enablePackage()/disablePackage()</code>. </p>
   
       <p>Is the package with the given name disabled?</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean">Boolean</a>.</li>
   </ul>
@@ -5273,7 +5273,7 @@ settings and also by calling <code>enablePackage()/disablePackage()</code>. </p>
   
       <p>Get the active <a href="https://github.com/atom/atom/blob/v1.9.0-dev/src/package.coffee#L16">Package</a> with the given name.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a <a href="https://github.com/atom/atom/blob/v1.9.0-dev/src/package.coffee#L16">Package</a> or .</li>
   </ul>
@@ -5295,7 +5295,7 @@ settings and also by calling <code>enablePackage()/disablePackage()</code>. </p>
   
       <p>Is the <a href="https://github.com/atom/atom/blob/v1.9.0-dev/src/package.coffee#L16">Package</a> with the given name active?</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean">Boolean</a>.</li>
   </ul>
@@ -5332,7 +5332,7 @@ settings and also by calling <code>enablePackage()/disablePackage()</code>. </p>
   
       <p>Get the loaded <a href="https://github.com/atom/atom/blob/v1.9.0-dev/src/package.coffee#L16">Package</a> with the given name.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a <a href="https://github.com/atom/atom/blob/v1.9.0-dev/src/package.coffee#L16">Package</a> or .</li>
   </ul>
@@ -5354,7 +5354,7 @@ settings and also by calling <code>enablePackage()/disablePackage()</code>. </p>
   
       <p>Is the package with the given name loaded?</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean">Boolean</a>.</li>
   </ul>
@@ -5372,7 +5372,7 @@ settings and also by calling <code>enablePackage()/disablePackage()</code>. </p>
     <td colspan="4">
       
       
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns an <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array">Array</a> of <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">String</a>s of all the available package paths.</li>
   </ul>
@@ -5390,7 +5390,7 @@ settings and also by calling <code>enablePackage()/disablePackage()</code>. </p>
     <td colspan="4">
       
       
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns an <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array">Array</a> of <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">String</a>s of all the available package names.</li>
   </ul>
@@ -5408,7 +5408,7 @@ settings and also by calling <code>enablePackage()/disablePackage()</code>. </p>
     <td colspan="4">
       
       
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns an <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array">Array</a> of <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">String</a>s of all the available package metadata.</li>
   </ul>
@@ -5446,7 +5446,7 @@ stylesheets, keymaps, grammar, editor properties, and menus. </p>
   
       <p>Invoke the given callback when all packages have been activated.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` on which <code>.dispose()</code> can be called to unsubscribe.</li>
   </ul>
@@ -5467,7 +5467,7 @@ stylesheets, keymaps, grammar, editor properties, and menus. </p>
   compiled against the current version of Atom?</p>
   <p>Incompatible packages cannot be activated.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean">Boolean</a>, true if compatible, false if incompatible.</li>
   </ul>
@@ -5487,7 +5487,7 @@ stylesheets, keymaps, grammar, editor properties, and menus. </p>
       <p>Rebuild native modules in this package&#39;s dependencies for the
   current version of Atom.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a> that resolves with an object containing <code>code</code>,
   <code>stdout</code>, and <code>stderr</code> properties based on the results of running
@@ -5508,7 +5508,7 @@ stylesheets, keymaps, grammar, editor properties, and menus. </p>
       
       <p>If a previous rebuild failed, get the contents of stderr.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">String</a> or null if no previous build failure occurred.</li>
   </ul>
@@ -5557,7 +5557,7 @@ pending items is shown in italics. </p>
   <p>The callback will be invoked when pane&#39;s flexScale property changes.
   Use {::getFlexScale} to get the current value.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` on which &#39;.dispose()&#39; can be called to unsubscribe.</li>
   </ul>
@@ -5583,7 +5583,7 @@ pending items is shown in italics. </p>
       <p>Invoke the given callback with the current and future values of
   {::getFlexScale}.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` on which <code>.dispose()</code> can be called to unsubscribe.</li>
   </ul>
@@ -5607,7 +5607,7 @@ pending items is shown in italics. </p>
   <p>The given callback will be invoked whenever {::activate} is called on the
   pane, even if it is already active at the time.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` on which <code>.dispose()</code> can be called to unsubscribe.</li>
   </ul>
@@ -5629,7 +5629,7 @@ pending items is shown in italics. </p>
   
       <p>Invoke the given callback before the pane is destroyed.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` on which <code>.dispose()</code> can be called to unsubscribe.</li>
   </ul>
@@ -5651,7 +5651,7 @@ pending items is shown in italics. </p>
   
       <p>Invoke the given callback when the pane is destroyed.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` on which <code>.dispose()</code> can be called to unsubscribe.</li>
   </ul>
@@ -5677,7 +5677,7 @@ pending items is shown in italics. </p>
       <p>Invoke the given callback when the value of the {::isActive}
   property changes.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` on which <code>.dispose()</code> can be called to unsubscribe.</li>
   </ul>
@@ -5703,7 +5703,7 @@ pending items is shown in italics. </p>
       <p>Invoke the given callback with the current and future values of the
   {::isActive} property.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` on which <code>.dispose()</code> can be called to unsubscribe.</li>
   </ul>
@@ -5732,7 +5732,7 @@ pending items is shown in italics. </p>
   
       <p>Invoke the given callback when an item is added to the pane.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` on which <code>.dispose()</code> can be called to unsubscribe.</li>
   </ul>
@@ -5761,7 +5761,7 @@ pending items is shown in italics. </p>
   
       <p>Invoke the given callback when an item is removed from the pane.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` on which <code>.dispose()</code> can be called to unsubscribe.</li>
   </ul>
@@ -5816,7 +5816,7 @@ pending items is shown in italics. </p>
   
       <p>Invoke the given callback when an item is moved within the pane.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` on which <code>.dispose()</code> can be called to unsubscribe.</li>
   </ul>
@@ -5841,7 +5841,7 @@ pending items is shown in italics. </p>
   
       <p>Invoke the given callback with all current and future items.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` on which <code>.dispose()</code> can be called to unsubscribe.</li>
   </ul>
@@ -5867,7 +5867,7 @@ pending items is shown in italics. </p>
       <p>Invoke the given callback when the value of {::getActiveItem}
   changes.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` on which <code>.dispose()</code> can be called to unsubscribe.</li>
   </ul>
@@ -5893,7 +5893,7 @@ pending items is shown in italics. </p>
       <p>Invoke the given callback with the current and future values of
   {::getActiveItem}.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` on which <code>.dispose()</code> can be called to unsubscribe.</li>
   </ul>
@@ -5922,7 +5922,7 @@ pending items is shown in italics. </p>
   
       <p>Invoke the given callback before items are destroyed.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` on which <code>.dispose()</code> can be called to
   unsubscribe.</li>
@@ -5942,7 +5942,7 @@ pending items is shown in italics. </p>
       
       <p>Get the items in this pane.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns an <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array">Array</a> of items.</li>
   </ul>
@@ -5961,7 +5961,7 @@ pending items is shown in italics. </p>
       
       <p>Get the active pane item in this pane.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a pane item.</li>
   </ul>
@@ -5983,7 +5983,7 @@ pending items is shown in italics. </p>
   
       <p>Return the item at the given index.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns an item or <code>null</code> if no item exists at the given index.</li>
   </ul>
@@ -6062,7 +6062,7 @@ pending items is shown in italics. </p>
       
       <p>Get the index of the active item.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number">Number</a>.</li>
   </ul>
@@ -6129,7 +6129,7 @@ pending items is shown in italics. </p>
   
       <p>Add the given item to the pane.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns the added item.</li>
   </ul>
@@ -6152,7 +6152,7 @@ pending items is shown in italics. </p>
   
       <p>Add the given items to the pane.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns an <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array">Array</a> of added items.</li>
   </ul>
@@ -6386,7 +6386,7 @@ pending items is shown in italics. </p>
   
       <p>Activate the first item that matches the given URI.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean">Boolean</a> indicating whether an item matching the URI was found.</li>
   </ul>
@@ -6405,7 +6405,7 @@ pending items is shown in italics. </p>
       
       <p>Determine whether the pane is active.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean">Boolean</a>.</li>
   </ul>
@@ -6463,7 +6463,7 @@ pending items is shown in italics. </p>
   
       <p>Create a new pane to the left of this pane.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns the new <a href="https://github.com/atom/atom/blob/v1.9.0-dev/src/pane.coffee#L18">Pane</a>.</li>
   </ul>
@@ -6489,7 +6489,7 @@ pending items is shown in italics. </p>
   
       <p>Create a new pane to the right of this pane.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns the new <a href="https://github.com/atom/atom/blob/v1.9.0-dev/src/pane.coffee#L18">Pane</a>.</li>
   </ul>
@@ -6515,7 +6515,7 @@ pending items is shown in italics. </p>
   
       <p>Creates a new pane above the receiver.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns the new <a href="https://github.com/atom/atom/blob/v1.9.0-dev/src/pane.coffee#L18">Pane</a>.</li>
   </ul>
@@ -6541,7 +6541,7 @@ pending items is shown in italics. </p>
   
       <p>Creates a new pane below the receiver.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns the new <a href="https://github.com/atom/atom/blob/v1.9.0-dev/src/pane.coffee#L18">Pane</a>.</li>
   </ul>
@@ -6602,7 +6602,7 @@ panels. </p>
   
       <p>Invoke the given callback when the pane hidden or shown.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` on which <code>.dispose()</code> can be called to unsubscribe.</li>
   </ul>
@@ -6627,7 +6627,7 @@ panels. </p>
   
       <p>Invoke the given callback when the pane is destroyed.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` on which <code>.dispose()</code> can be called to unsubscribe.</li>
   </ul>
@@ -6645,7 +6645,7 @@ panels. </p>
     <td colspan="4">
       
       
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns the panel&#39;s item.</li>
   </ul>
@@ -6663,7 +6663,7 @@ panels. </p>
     <td colspan="4">
       
       
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number">Number</a> indicating this panel&#39;s priority.</li>
   </ul>
@@ -6681,7 +6681,7 @@ panels. </p>
     <td colspan="4">
       
       
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean">Boolean</a> true when the panel is visible.</li>
   </ul>
@@ -6752,7 +6752,7 @@ panels. </p>
   
       <p>Invoke the given callback when the project paths change.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` on which <code>.dispose()</code> can be called to unsubscribe.</li>
   </ul>
@@ -6795,7 +6795,7 @@ panels. </p>
   
       <p>Get the repository for a given directory asynchronously.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li><p>Returns a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a> that resolves with either:</p>
   </li>
@@ -6907,7 +6907,7 @@ panels. </p>
       <p>Get the path to the project directory that contains the given path,
   and the relative path from that project directory to the given path.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li><p>Returns an <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array">Array</a> with two elements:</p>
   </li>
@@ -6938,7 +6938,7 @@ panels. </p>
   <p>This method does not actually check if the path exists, it just checks their
   locations relative to each other.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns whether the path is inside the project&#39;s root directory.</li>
   </ul>
@@ -7007,7 +7007,7 @@ for more information. </p>
     <td colspan="4">
       
       
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns an <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array">Array</a> of <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">String</a>s</li>
   </ul>
@@ -7054,7 +7054,7 @@ for more information. </p>
   
       <p>Calls your <code>callback</code> when the selection was moved.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` on which <code>.dispose()</code> can be called to unsubscribe.</li>
   </ul>
@@ -7076,7 +7076,7 @@ for more information. </p>
   
       <p>Calls your <code>callback</code> when the selection was destroyed</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` on which <code>.dispose()</code> can be called to unsubscribe.</li>
   </ul>
@@ -7094,7 +7094,7 @@ for more information. </p>
     <td colspan="4">
       
       
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns the screen `{Range}` for the selection.</li>
   </ul>
@@ -7131,7 +7131,7 @@ for more information. </p>
     <td colspan="4">
       
       
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns the buffer `{Range}` for the selection.</li>
   </ul>
@@ -7172,7 +7172,7 @@ for more information. </p>
     <td colspan="4">
       
       
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li><p>Returns the starting and ending buffer rows the selection is
   highlighting.</p>
@@ -7226,7 +7226,7 @@ for more information. </p>
     <td colspan="4">
       
       
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns whether the selection is a single line or not.</li>
   </ul>
@@ -7244,7 +7244,7 @@ for more information. </p>
     <td colspan="4">
       
       
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns the text in the selection.</li>
   </ul>
@@ -7266,7 +7266,7 @@ for more information. </p>
   
       <p>Identifies if a selection intersects with a given buffer range.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean">Boolean</a></li>
   </ul>
@@ -7288,7 +7288,7 @@ for more information. </p>
   
       <p>Identifies if a selection intersects with another selection.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean">Boolean</a></li>
   </ul>
@@ -7689,7 +7689,7 @@ for more information. </p>
       
       <p>Modifies the selection to encompass the current word.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Range}`.</li>
   </ul>
@@ -8244,7 +8244,7 @@ which clone and attach style elements in different contexts. </p>
   
       <p>Invoke <code>callback</code> for all current and future style elements.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` on which <code>.dispose()</code> can be called to cancel the
   subscription.</li>
@@ -8274,7 +8274,7 @@ which clone and attach style elements in different contexts. </p>
   
       <p>Invoke <code>callback</code> when a style element is added.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` on which <code>.dispose()</code> can be called to cancel the
   subscription.</li>
@@ -8300,7 +8300,7 @@ which clone and attach style elements in different contexts. </p>
   
       <p>Invoke <code>callback</code> when a style element is removed.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` on which <code>.dispose()</code> can be called to cancel the
   subscription.</li>
@@ -8330,7 +8330,7 @@ which clone and attach style elements in different contexts. </p>
   
       <p>Invoke <code>callback</code> when an existing style element is updated.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` on which <code>.dispose()</code> can be called to cancel the
   subscription.</li>
@@ -8365,7 +8365,7 @@ which clone and attach style elements in different contexts. </p>
       
       <p>Get the path of the user style sheet in <code>~/.atom</code>.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">String</a>.</li>
   </ul>
@@ -8406,7 +8406,7 @@ and the <a href="https://github.com/atom/atom/blob/4a20f13162f65afc816b512ad7201
   
       <p>A helper method to easily launch and run a task once.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns the created <a href="https://github.com/atom/atom/blob/v1.9.0-dev/src/task.coffee#L40">Task</a>.</li>
   </ul>
@@ -8488,7 +8488,7 @@ and the <a href="https://github.com/atom/atom/blob/4a20f13162f65afc816b512ad7201
   
       <p>Call a function when an event is emitted by the child process</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` that can be used to stop listening for the event.</li>
   </ul>
@@ -8511,7 +8511,7 @@ and the <a href="https://github.com/atom/atom/blob/4a20f13162f65afc816b512ad7201
   
       <p>A helper method to easily launch and run a task once.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns the created <a href="https://github.com/atom/atom/blob/v1.9.0-dev/src/task.coffee#L40">Task</a>.</li>
   </ul>
@@ -8594,7 +8594,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
   
       <p>Calls your <code>callback</code> when the buffer&#39;s title has changed.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` on which <code>.dispose()</code> can be called to unsubscribe.</li>
   </ul>
@@ -8616,7 +8616,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
   
       <p>Calls your <code>callback</code> when the buffer&#39;s path, and therefore title, has changed.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` on which <code>.dispose()</code> can be called to unsubscribe.</li>
   </ul>
@@ -8642,7 +8642,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
   any expensive operations via this method. Consider {::onDidStopChanging} to
   delay expensive operations until after changes stop occurring.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` on which <code>.dispose()</code> can be called to unsubscribe.</li>
   </ul>
@@ -8666,7 +8666,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
   emit asynchronously 300ms after the last buffer change. This is a good place
   to handle changes to the buffer without compromising typing performance.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` on which <code>.dispose()</code> can be called to unsubscribe.</li>
   </ul>
@@ -8700,7 +8700,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
       <p>Calls your <code>callback</code> when a <a href="https://github.com/atom/atom/blob/v1.9.0-dev/src/cursor.coffee#L14">Cursor</a> is moved. If there are
   multiple cursors, your callback will be called for each cursor.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` on which <code>.dispose()</code> can be called to unsubscribe.</li>
   </ul>
@@ -8732,7 +8732,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
   
       <p>Calls your <code>callback</code> when a selection&#39;s screen range changes.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` on which <code>.dispose()</code> can be called to unsubscribe.</li>
   </ul>
@@ -8754,7 +8754,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
   
       <p>Calls your <code>callback</code> when soft wrap was enabled or disabled.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` on which <code>.dispose()</code> can be called to unsubscribe.</li>
   </ul>
@@ -8776,7 +8776,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
   
       <p>Calls your <code>callback</code> when the buffer&#39;s encoding has changed.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` on which <code>.dispose()</code> can be called to unsubscribe.</li>
   </ul>
@@ -8803,7 +8803,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
   colorizes the text has been changed. Immediately calls your callback with
   the current grammar.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` on which <code>.dispose()</code> can be called to unsubscribe.</li>
   </ul>
@@ -8829,7 +8829,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
       <p>Calls your <code>callback</code> when the grammar that interprets and
   colorizes the text has been changed.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` on which <code>.dispose()</code> can be called to unsubscribe.</li>
   </ul>
@@ -8851,7 +8851,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
   
       <p>Calls your <code>callback</code> when the result of {::isModified} changes.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` on which <code>.dispose()</code> can be called to unsubscribe.</li>
   </ul>
@@ -8874,7 +8874,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
       <p>Calls your <code>callback</code> when the buffer&#39;s underlying file changes on
   disk at a moment when the result of {::isModified} is true.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` on which <code>.dispose()</code> can be called to unsubscribe.</li>
   </ul>
@@ -8903,7 +8903,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
   
       <p>Calls your <code>callback</code> before text has been inserted.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` on which <code>.dispose()</code> can be called to unsubscribe.</li>
   </ul>
@@ -8931,7 +8931,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
   
       <p>Calls your <code>callback</code> after text has been inserted.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` on which <code>.dispose()</code> can be called to unsubscribe.</li>
   </ul>
@@ -8959,7 +8959,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
   
       <p>Invoke the given callback after the buffer is saved to disk.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` on which <code>.dispose()</code> can be called to unsubscribe.</li>
   </ul>
@@ -8981,7 +8981,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
   
       <p>Invoke the given callback when the editor is destroyed.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` on which <code>.dispose()</code> can be called to unsubscribe.</li>
   </ul>
@@ -9007,7 +9007,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
       <p>Calls your <code>callback</code> when a <a href="https://github.com/atom/atom/blob/v1.9.0-dev/src/cursor.coffee#L14">Cursor</a> is added to the editor.
   Immediately calls your callback for each existing cursor.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` on which <code>.dispose()</code> can be called to unsubscribe.</li>
   </ul>
@@ -9032,7 +9032,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
   
       <p>Calls your <code>callback</code> when a <a href="https://github.com/atom/atom/blob/v1.9.0-dev/src/cursor.coffee#L14">Cursor</a> is added to the editor.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` on which <code>.dispose()</code> can be called to unsubscribe.</li>
   </ul>
@@ -9057,7 +9057,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
   
       <p>Calls your <code>callback</code> when a <a href="https://github.com/atom/atom/blob/v1.9.0-dev/src/cursor.coffee#L14">Cursor</a> is removed from the editor.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` on which <code>.dispose()</code> can be called to unsubscribe.</li>
   </ul>
@@ -9083,7 +9083,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
       <p>Calls your <code>callback</code> when a <a href="https://github.com/atom/atom/blob/v1.9.0-dev/src/selection.coffee#L10">Selection</a> is added to the editor.
   Immediately calls your callback for each existing selection.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` on which <code>.dispose()</code> can be called to unsubscribe.</li>
   </ul>
@@ -9108,7 +9108,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
   
       <p>Calls your <code>callback</code> when a <a href="https://github.com/atom/atom/blob/v1.9.0-dev/src/selection.coffee#L10">Selection</a> is added to the editor.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` on which <code>.dispose()</code> can be called to unsubscribe.</li>
   </ul>
@@ -9133,7 +9133,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
   
       <p>Calls your <code>callback</code> when a <a href="https://github.com/atom/atom/blob/v1.9.0-dev/src/selection.coffee#L10">Selection</a> is removed from the editor.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` on which <code>.dispose()</code> can be called to unsubscribe.</li>
   </ul>
@@ -9159,7 +9159,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
       <p>Calls your <code>callback</code> with each <a href="https://github.com/atom/atom/blob/v1.9.0-dev/src/decoration.coffee#L37">Decoration</a> added to the editor.
   Calls your <code>callback</code> immediately for any existing decorations.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` on which <code>.dispose()</code> can be called to unsubscribe.</li>
   </ul>
@@ -9184,7 +9184,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
   
       <p>Calls your <code>callback</code> when a <a href="https://github.com/atom/atom/blob/v1.9.0-dev/src/decoration.coffee#L37">Decoration</a> is added to the editor.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` on which <code>.dispose()</code> can be called to unsubscribe.</li>
   </ul>
@@ -9209,7 +9209,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
   
       <p>Calls your <code>callback</code> when a <a href="https://github.com/atom/atom/blob/v1.9.0-dev/src/decoration.coffee#L37">Decoration</a> is removed from the editor.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` on which <code>.dispose()</code> can be called to unsubscribe.</li>
   </ul>
@@ -9234,7 +9234,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
   
       <p>Calls your <code>callback</code> when the placeholder text is changed.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` on which <code>.dispose()</code> can be called to unsubscribe.</li>
   </ul>
@@ -9275,7 +9275,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
       <p>Calls your <code>callback</code> when a <a href="https://github.com/atom/atom/blob/v1.9.0-dev/src/gutter.coffee#L9">Gutter</a> is added to the editor.
   Immediately calls your callback for each existing gutter.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` on which <code>.dispose()</code> can be called to unsubscribe.</li>
   </ul>
@@ -9300,7 +9300,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
   
       <p>Calls your <code>callback</code> when a <a href="https://github.com/atom/atom/blob/v1.9.0-dev/src/gutter.coffee#L9">Gutter</a> is added to the editor.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` on which <code>.dispose()</code> can be called to unsubscribe.</li>
   </ul>
@@ -9325,7 +9325,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
   
       <p>Calls your <code>callback</code> when a <a href="https://github.com/atom/atom/blob/v1.9.0-dev/src/gutter.coffee#L9">Gutter</a> is removed from the editor.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` on which <code>.dispose()</code> can be called to unsubscribe.</li>
   </ul>
@@ -9347,7 +9347,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
   <p>If the editor&#39;s buffer is saved, its title is the file name. If it is
   unsaved, its title is &quot;untitled&quot;.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">String</a>.</li>
   </ul>
@@ -9374,7 +9374,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
   <li>&quot;<filename> — <unique-dir-prefix>&quot; when other buffers have this file name.</li>
   </ul>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">String</a></li>
   </ul>
@@ -9392,7 +9392,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
     <td colspan="4">
       
       
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns the <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">String</a> path of this editor&#39;s text buffer.</li>
   </ul>
@@ -9410,7 +9410,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
     <td colspan="4">
       
       
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns the <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">String</a> character set encoding of this editor&#39;s text
   buffer.</li>
@@ -9448,7 +9448,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
     <td colspan="4">
       
       
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean">Boolean</a> <code>true</code> if this editor has been modified.</li>
   </ul>
@@ -9466,7 +9466,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
     <td colspan="4">
       
       
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean">Boolean</a> <code>true</code> if this editor has no content.</li>
   </ul>
@@ -9519,7 +9519,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
     <td colspan="4">
       
       
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">String</a> representing the entire contents of the editor.</li>
   </ul>
@@ -9541,7 +9541,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
   
       <p>Get the text in the given `{Range}` in buffer coordinates.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">String</a>.</li>
   </ul>
@@ -9559,7 +9559,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
     <td colspan="4">
       
       
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number">Number</a> representing the number of lines in the buffer.</li>
   </ul>
@@ -9577,7 +9577,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
     <td colspan="4">
       
       
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number">Number</a> representing the number of screen lines in the
   editor. This accounts for folds.</li>
@@ -9596,7 +9596,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
     <td colspan="4">
       
       
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number">Number</a> representing the last zero-indexed buffer row
   number of the editor.</li>
@@ -9615,7 +9615,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
     <td colspan="4">
       
       
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number">Number</a> representing the last zero-indexed screen row
   number of the editor.</li>
@@ -9637,7 +9637,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
   </ul>
   
       
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">String</a> representing the contents of the line at the
   given buffer row.</li>
@@ -9659,7 +9659,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
   </ul>
   
       
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">String</a> representing the contents of the line at the
   given screen row.</li>
@@ -9680,7 +9680,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
       <p>Get the `{Range}` of the paragraph surrounding the most recently added
   cursor.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Range}`.</li>
   </ul>
@@ -9726,7 +9726,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
   
       <p>Set the text in the given `{Range}` in buffer coordinates.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns the `{Range}` of the newly-inserted text.</li>
   </ul>
@@ -9749,7 +9749,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
   
       <p>For each selection, replace the selected text with the given text.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li><p>Returns a `{Range}` when the text has been inserted</p>
   </li>
@@ -10155,7 +10155,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
       <p>Create a pointer to the current state of the buffer for use
   with {::revertToCheckpoint} and {::groupChangesSinceCheckpoint}.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a checkpoint value.</li>
   </ul>
@@ -10179,7 +10179,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
   undo history, no changes will be made to the buffer and this method will
   return <code>false</code>.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean">Boolean</a> indicating whether the operation succeeded.</li>
   </ul>
@@ -10201,7 +10201,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
   <p>If the given checkpoint is no longer present in the undo history, no
   grouping will be performed and this method will return <code>false</code>.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean">Boolean</a> indicating whether the operation succeeded.</li>
   </ul>
@@ -10227,7 +10227,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
   The position is also clipped via {::clipScreenPosition} following the
   conversion, which only makes a difference when <code>options</code> are supplied.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Point}`.</li>
   </ul>
@@ -10251,7 +10251,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
       <p>Convert a position in screen-coordinates to buffer-coordinates.</p>
   <p>The position is clipped via {::clipScreenPosition} prior to the conversion.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Point}`.</li>
   </ul>
@@ -10273,7 +10273,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
   
       <p>Convert a range in buffer-coordinates to screen-coordinates.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Range}`.</li>
   </ul>
@@ -10295,7 +10295,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
   
       <p>Convert a range in screen-coordinates to buffer-coordinates.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Range}`.</li>
   </ul>
@@ -10321,7 +10321,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
   unchanged. If the `{Point}` does not describe a valid position, the closest
   valid position is returned instead.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Point}`.</li>
   </ul>
@@ -10344,7 +10344,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
       <p>Clip the start and end of the given range to valid positions in the
   buffer. See {::clipBufferPosition} for more information.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Range}`.</li>
   </ul>
@@ -10374,7 +10374,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
   unchanged. If the `{Point}` does not describe a valid position, the closest
   valid position is returned instead.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Point}`.</li>
   </ul>
@@ -10398,7 +10398,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
       <p>Clip the start and end of the given range to valid positions on screen.
   See {::clipScreenPosition} for more information.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Range}`.</li>
   </ul>
@@ -10463,7 +10463,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
     after the row of the given <code>TextEditorMarker</code>.</li>
   </ul>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a <a href="https://github.com/atom/atom/blob/v1.9.0-dev/src/decoration.coffee#L37">Decoration</a> object</li>
   </ul>
@@ -10488,7 +10488,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
   be used to decorate a large number of markers without having to create and
   manage many individual decorations.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a <a href="https://github.com/atom/atom/blob/v1.9.0-dev/src/layer-decoration.coffee#L9">LayerDecoration</a>.</li>
   </ul>
@@ -10510,7 +10510,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
   
       <p>Get all decorations.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns an <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array">Array</a> of <a href="https://github.com/atom/atom/blob/v1.9.0-dev/src/decoration.coffee#L37">Decoration</a>s.</li>
   </ul>
@@ -10532,7 +10532,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
   
       <p>Get all decorations of type &#39;line&#39;.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns an <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array">Array</a> of <a href="https://github.com/atom/atom/blob/v1.9.0-dev/src/decoration.coffee#L37">Decoration</a>s.</li>
   </ul>
@@ -10554,7 +10554,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
   
       <p>Get all decorations of type &#39;line-number&#39;.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns an <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array">Array</a> of <a href="https://github.com/atom/atom/blob/v1.9.0-dev/src/decoration.coffee#L37">Decoration</a>s.</li>
   </ul>
@@ -10576,7 +10576,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
   
       <p>Get all decorations of type &#39;highlight&#39;.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns an <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array">Array</a> of <a href="https://github.com/atom/atom/blob/v1.9.0-dev/src/decoration.coffee#L37">Decoration</a>s.</li>
   </ul>
@@ -10598,7 +10598,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
   
       <p>Get all decorations of type &#39;overlay&#39;.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns an <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array">Array</a> of <a href="https://github.com/atom/atom/blob/v1.9.0-dev/src/decoration.coffee#L37">Decoration</a>s.</li>
   </ul>
@@ -10640,7 +10640,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
   buffer is changed, so if you mark a particular word, the marker will remain
   over that word even if the word&#39;s location in the buffer changes.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{DisplayMarker}`.</li>
   </ul>
@@ -10682,7 +10682,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
   buffer is changed, so if you mark a particular word, the marker will remain
   over that word even if the word&#39;s location in the buffer changes.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{DisplayMarker}`.</li>
   </ul>
@@ -10721,7 +10721,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
   position and no tail. To group multiple markers together in their own
   private layer, see {::addMarkerLayer}.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{DisplayMarker}`.</li>
   </ul>
@@ -10761,7 +10761,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
   position and no tail. To group multiple markers together in their own
   private layer, see {::addMarkerLayer}.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{DisplayMarker}`.</li>
   </ul>
@@ -10794,7 +10794,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
   In addition, there are several special properties that will be compared
   with the range of the markers rather than their properties.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns an <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array">Array</a> of `{DisplayMarker}`s</li>
   </ul>
@@ -10848,7 +10848,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
       
       <p>Get the number of markers in the default marker layer.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number">Number</a>.</li>
   </ul>
@@ -10874,7 +10874,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
   
       <p>Create a marker layer to group related markers.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{DisplayMarkerLayer}`.</li>
   </ul>
@@ -10896,7 +10896,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
   
       <p>Get a `{DisplayMarkerLayer}` by id.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{DisplayMarkerLayer}` or `` if no layer exists with the
   given id.</li>
@@ -10918,7 +10918,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
   <p>All marker APIs not tied to an explicit layer interact with this default
   layer.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{DisplayMarkerLayer}`.</li>
   </ul>
@@ -10938,7 +10938,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
       <p>Get the position of the most recently added cursor in buffer
   coordinates.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Point}`</li>
   </ul>
@@ -10957,7 +10957,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
       
       <p>Get the position of all the cursor positions in buffer coordinates.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array">Array</a> of `{Point}`s in the order they were added</li>
   </ul>
@@ -11002,7 +11002,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
   
       <p>Get a <a href="https://github.com/atom/atom/blob/v1.9.0-dev/src/cursor.coffee#L14">Cursor</a> at given screen coordinates `{Point}`</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns the first matched <a href="https://github.com/atom/atom/blob/v1.9.0-dev/src/cursor.coffee#L14">Cursor</a> or</li>
   </ul>
@@ -11022,7 +11022,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
       <p>Get the position of the most recently added cursor in screen
   coordinates.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Point}`.</li>
   </ul>
@@ -11041,7 +11041,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
       
       <p>Get the position of all the cursor positions in screen coordinates.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array">Array</a> of `{Point}`s in the order the cursors were added</li>
   </ul>
@@ -11086,7 +11086,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
   
       <p>Add a cursor at the given position in buffer coordinates.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a <a href="https://github.com/atom/atom/blob/v1.9.0-dev/src/cursor.coffee#L14">Cursor</a>.</li>
   </ul>
@@ -11108,7 +11108,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
   
       <p>Add a cursor at the position in screen coordinates.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a <a href="https://github.com/atom/atom/blob/v1.9.0-dev/src/cursor.coffee#L14">Cursor</a>.</li>
   </ul>
@@ -11126,7 +11126,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
     <td colspan="4">
       
       
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean">Boolean</a> indicating whether or not there are multiple cursors.</li>
   </ul>
@@ -11458,7 +11458,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
     <td colspan="4">
       
       
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns the most recently added <a href="https://github.com/atom/atom/blob/v1.9.0-dev/src/cursor.coffee#L14">Cursor</a></li>
   </ul>
@@ -11479,7 +11479,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
   </ul>
   
       
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns the word surrounding the most recently added cursor.</li>
   </ul>
@@ -11514,7 +11514,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
       <p>Get all `{Cursors}`s, ordered by their position in the buffer
   instead of the order in which they were added.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns an <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array">Array</a> of <a href="https://github.com/atom/atom/blob/v1.9.0-dev/src/selection.coffee#L10">Selection</a>s.</li>
   </ul>
@@ -11533,7 +11533,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
       
       <p>Get the selected text of the most recently added selection.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">String</a>.</li>
   </ul>
@@ -11553,7 +11553,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
       <p>Get the `{Range}` of the most recently added selection in buffer
   coordinates.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Range}`.</li>
   </ul>
@@ -11573,7 +11573,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
       <p>Get the `{Range}`s of all selections in buffer coordinates.</p>
   <p>The ranges are sorted by when the selections were added. Most recent at the end.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns an <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array">Array</a> of `{Range}`s.</li>
   </ul>
@@ -11641,7 +11641,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
       <p>Get the `{Range}` of the most recently added selection in screen
   coordinates.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Range}`.</li>
   </ul>
@@ -11661,7 +11661,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
       <p>Get the `{Range}`s of all selections in screen coordinates.</p>
   <p>The ranges are sorted by when the selections were added. Most recent at the end.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns an <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array">Array</a> of `{Range}`s.</li>
   </ul>
@@ -11734,7 +11734,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
   
       <p>Add a selection for the given range in buffer coordinates.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns the added <a href="https://github.com/atom/atom/blob/v1.9.0-dev/src/selection.coffee#L10">Selection</a>.</li>
   </ul>
@@ -12186,7 +12186,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
   
       <p>Select the range of the given marker if it is valid.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns the selected `{Range}` or `` if the marker is invalid.</li>
   </ul>
@@ -12205,7 +12205,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
       
       <p>Get the most recently added <a href="https://github.com/atom/atom/blob/v1.9.0-dev/src/selection.coffee#L10">Selection</a>.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a <a href="https://github.com/atom/atom/blob/v1.9.0-dev/src/selection.coffee#L10">Selection</a>.</li>
   </ul>
@@ -12224,7 +12224,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
       
       <p>Get current <a href="https://github.com/atom/atom/blob/v1.9.0-dev/src/selection.coffee#L10">Selection</a>s.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns: An <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array">Array</a> of <a href="https://github.com/atom/atom/blob/v1.9.0-dev/src/selection.coffee#L10">Selection</a>s.</li>
   </ul>
@@ -12244,7 +12244,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
       <p>Get all <a href="https://github.com/atom/atom/blob/v1.9.0-dev/src/selection.coffee#L10">Selection</a>s, ordered by their position in the buffer
   instead of the order in which they were added.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns an <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array">Array</a> of <a href="https://github.com/atom/atom/blob/v1.9.0-dev/src/selection.coffee#L10">Selection</a>s.</li>
   </ul>
@@ -12267,7 +12267,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
       <p>Determine if a given range in buffer coordinates intersects a
   selection.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean">Boolean</a>.</li>
   </ul>
@@ -12374,7 +12374,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
     <td colspan="4">
       
       
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean">Boolean</a> indicating whether softTabs are enabled for this
   editor.</li>
@@ -12427,7 +12427,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
       
       <p>Get the on-screen length of tab characters.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number">Number</a>.</li>
   </ul>
@@ -12465,7 +12465,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
       
       <p>Determine if the buffer uses hard or soft tabs.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li><p>Returns <code>true</code> if the first non-comment line with leading whitespace starts
   with a space character.</p>
@@ -12493,7 +12493,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
   <p>If soft tabs are enabled, the text is composed of N spaces, where N is the
   tab length. Otherwise the text is a tab character (<code>\t</code>).</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">String</a>.</li>
   </ul>
@@ -12512,7 +12512,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
       
       <p>Determine whether lines in this editor are soft-wrapped.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean">Boolean</a>.</li>
   </ul>
@@ -12534,7 +12534,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
   
       <p>Enable or disable soft wrapping for this editor.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean">Boolean</a>.</li>
   </ul>
@@ -12553,7 +12553,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
       
       <p>Toggle soft wrapping for this editor</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean">Boolean</a>.</li>
   </ul>
@@ -12587,7 +12587,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
       
       <p>Get the indentation level of the given a buffer row.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li><p>Returns how deeply the given row is indented based on the soft tabs and
   tab length settings of this editor. Note that if soft tabs are enabled and
@@ -12671,7 +12671,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
       
       <p>Get the indentation level of the given line of text.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li><p>Returns how deeply the given line is indented based on the soft tabs and
   tab length settings of this editor. Note that if soft tabs are enabled and
@@ -12748,7 +12748,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
     <td colspan="4">
       
       
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a <a href="https://github.com/atom/atom/blob/v1.9.0-dev/src/scope-descriptor.coffee#L21">ScopeDescriptor</a> that includes this editor&#39;s language.
   e.g. <code>[&#39;.source.ruby&#39;]</code>, or <code>[&#39;.source.coffee&#39;]</code>. You can use this with
@@ -12776,7 +12776,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
   anonymous CoffeeScript function, the method returns the following array:
   <code>[&quot;source.coffee&quot;, &quot;meta.inline.function.coffee&quot;, &quot;variable.parameter.function.coffee&quot;]</code></p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a <a href="https://github.com/atom/atom/blob/v1.9.0-dev/src/scope-descriptor.coffee#L21">ScopeDescriptor</a>.</li>
   </ul>
@@ -12801,7 +12801,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
   <p>For example, if you wanted to find the string surrounding the cursor, you
   could call <code>editor.bufferRangeForScopeAtCursor(&quot;.string.quoted&quot;)</code>.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Range}`.</li>
   </ul>
@@ -13060,7 +13060,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
       <p>Determine whether the given row in buffer coordinates is foldable.</p>
   <p>A <em>foldable</em> row is a row that <em>starts</em> a row range that can be folded.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean">Boolean</a>.</li>
   </ul>
@@ -13083,7 +13083,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
       <p>Determine whether the given row in screen coordinates is foldable.</p>
   <p>A <em>foldable</em> row is a row that <em>starts</em> a row range that can be folded.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean">Boolean</a>.</li>
   </ul>
@@ -13118,7 +13118,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
       
       <p>Determine whether the most recently added cursor&#39;s row is folded.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean">Boolean</a>.</li>
   </ul>
@@ -13140,7 +13140,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
   
       <p>Determine whether the given row in buffer coordinates is folded.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean">Boolean</a>.</li>
   </ul>
@@ -13162,7 +13162,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
   
       <p>Determine whether the given row in screen coordinates is folded.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean">Boolean</a>.</li>
   </ul>
@@ -13189,7 +13189,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
   
       <p>Add a custom <a href="https://github.com/atom/atom/blob/v1.9.0-dev/src/gutter.coffee#L9">Gutter</a>.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns the newly-created <a href="https://github.com/atom/atom/blob/v1.9.0-dev/src/gutter.coffee#L9">Gutter</a>.</li>
   </ul>
@@ -13208,7 +13208,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
       
       <p>Get this editor&#39;s gutters.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns an <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array">Array</a> of <a href="https://github.com/atom/atom/blob/v1.9.0-dev/src/gutter.coffee#L9">Gutter</a>s.</li>
   </ul>
@@ -13227,7 +13227,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
       
       <p>Get the gutter with the given name.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a <a href="https://github.com/atom/atom/blob/v1.9.0-dev/src/gutter.coffee#L9">Gutter</a>, or <code>null</code> if no gutter exists for the given name.</li>
   </ul>
@@ -13312,7 +13312,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
       
       <p>Retrieves the greyed out placeholder of a mini editor.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">String</a>.</li>
   </ul>
@@ -13384,7 +13384,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
     <td colspan="4">
       
       
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns an <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array">Array</a> of <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">String</a>s of all the loaded theme names.</li>
   </ul>
@@ -13402,7 +13402,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
     <td colspan="4">
       
       
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns an <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array">Array</a> of all the loaded themes.</li>
   </ul>
@@ -13420,7 +13420,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
     <td colspan="4">
       
       
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns an <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array">Array</a> of <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">String</a>s all the active theme names.</li>
   </ul>
@@ -13438,7 +13438,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
     <td colspan="4">
       
       
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns an <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array">Array</a> of all the active themes.</li>
   </ul>
@@ -13457,7 +13457,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
       
       <p>Get the enabled theme names from the config.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns an array of theme names in the order that they should be activated.</li>
   </ul>
@@ -13502,7 +13502,7 @@ soft wraps and folds to ensure your code interacts with them correctly. </p>
   
       <p>Add a tooltip to the given element.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` on which <code>.dispose()</code> can be called to remove the
   tooltip.</li>
@@ -13554,7 +13554,7 @@ an ideal tool for implementing views in Atom.</p>
       <p>Add a provider that will be used to construct views in the
   workspace&#39;s view layer based on model objects in its model layer.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` on which <code>.dispose()</code> can be called to remove the
   added provider.</li>
@@ -13594,7 +13594,7 @@ an ideal tool for implementing views in Atom.</p>
   </ol>
   <p>If no associated view is returned by the sequence an error is thrown.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a DOM element.</li>
   </ul>
@@ -13639,7 +13639,7 @@ and friends.</p>
       <p>Invoke the given callback with all current and future text
   editors in the workspace.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` on which <code>.dispose()</code> can be called to unsubscribe.</li>
   </ul>
@@ -13665,7 +13665,7 @@ and friends.</p>
       <p>Invoke the given callback with all current and future panes items
   in the workspace.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` on which <code>.dispose()</code> can be called to unsubscribe.</li>
   </ul>
@@ -13694,7 +13694,7 @@ and friends.</p>
   {::onDidStopChangingActivePaneItem} to delay operations until after changes
   stop occurring.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` on which <code>.dispose()</code> can be called to unsubscribe.</li>
   </ul>
@@ -13725,7 +13725,7 @@ and friends.</p>
   changing or closing tabs and ensures critical UI feedback, like changing the
   highlighted tab, gets priority over work that can be done asynchronously.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` on which <code>.dispose()</code> can be called to unsubscribe.</li>
   </ul>
@@ -13751,7 +13751,7 @@ and friends.</p>
       <p>Invoke the given callback with the current active pane item and
   with all future active pane items in the workspace.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` on which <code>.dispose()</code> can be called to unsubscribe.</li>
   </ul>
@@ -13784,7 +13784,7 @@ and friends.</p>
   {::onDidAddPaneItem}, observers will be notified for items that are already
   present in the workspace when they are reopened.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` on which <code>.dispose()</code> can be called to unsubscribe.</li>
   </ul>
@@ -13812,7 +13812,7 @@ and friends.</p>
   
       <p>Invoke the given callback when a pane is added to the workspace.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` on which <code>.dispose()</code> can be called to unsubscribe.</li>
   </ul>
@@ -13841,7 +13841,7 @@ and friends.</p>
       <p>Invoke the given callback before a pane is destroyed in the
   workspace.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` on which <code>.dispose()</code> can be called to unsubscribe.</li>
   </ul>
@@ -13870,7 +13870,7 @@ and friends.</p>
       <p>Invoke the given callback when a pane is destroyed in the
   workspace.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` on which <code>.dispose()</code> can be called to unsubscribe.</li>
   </ul>
@@ -13896,7 +13896,7 @@ and friends.</p>
       <p>Invoke the given callback with all current and future panes in the
   workspace.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` on which <code>.dispose()</code> can be called to unsubscribe.</li>
   </ul>
@@ -13921,7 +13921,7 @@ and friends.</p>
   
       <p>Invoke the given callback when the active pane changes.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` on which <code>.dispose()</code> can be called to unsubscribe.</li>
   </ul>
@@ -13947,7 +13947,7 @@ and friends.</p>
       <p>Invoke the given callback with the current active pane and when
   the active pane changes.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` on which <code>.dispose()</code> can be called to unsubscribe.</li>
   </ul>
@@ -13978,7 +13978,7 @@ and friends.</p>
       <p>Invoke the given callback when a pane item is added to the
   workspace.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` on which <code>.dispose()</code> can be called to unsubscribe.</li>
   </ul>
@@ -14009,7 +14009,7 @@ and friends.</p>
       <p>Invoke the given callback when a pane item is about to be
   destroyed, before the user is prompted to save it.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` on which <code>.dispose</code> can be called to unsubscribe.</li>
   </ul>
@@ -14039,7 +14039,7 @@ and friends.</p>
   
       <p>Invoke the given callback when a pane item is destroyed.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` on which <code>.dispose</code> can be called to unsubscribe.</li>
   </ul>
@@ -14070,7 +14070,7 @@ and friends.</p>
       <p>Invoke the given callback when a text editor is added to the
   workspace.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` on which <code>.dispose()</code> can be called to unsubscribe.</li>
   </ul>
@@ -14105,7 +14105,7 @@ and friends.</p>
   activated. If no URI is given, or no registered opener can open
   the URI, a new empty <a href="https://github.com/atom/atom/blob/v1.9.0-dev/src/text-editor.coffee#L60">TextEditor</a> will be created.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a> that resolves to the <a href="https://github.com/atom/atom/blob/v1.9.0-dev/src/text-editor.coffee#L60">TextEditor</a> for the file URI.</li>
   </ul>
@@ -14126,7 +14126,7 @@ and friends.</p>
   </ul>
   
       
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean">Boolean</a> that is <code>true</code> if <code>object</code> is a <code>TextEditor</code>.</li>
   </ul>
@@ -14145,7 +14145,7 @@ and friends.</p>
       
       <p>Create a new text editor.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a <a href="https://github.com/atom/atom/blob/v1.9.0-dev/src/text-editor.coffee#L60">TextEditor</a>.</li>
   </ul>
@@ -14165,7 +14165,7 @@ and friends.</p>
       <p>Asynchronously reopens the last-closed item&#39;s URI if it hasn&#39;t already been
   reopened.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a> that is resolved when the item is opened</li>
   </ul>
@@ -14188,7 +14188,7 @@ and friends.</p>
       <p>Register an opener for a uri.</p>
   <p>An <a href="https://github.com/atom/atom/blob/v1.9.0-dev/src/text-editor.coffee#L60">TextEditor</a> will be used if no openers return a value.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a `{Disposable}` on which <code>.dispose()</code> can be called to remove the
   opener.</li>
@@ -14216,7 +14216,7 @@ and friends.</p>
       
       <p>Get all pane items in the workspace.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns an <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array">Array</a> of items.</li>
   </ul>
@@ -14235,7 +14235,7 @@ and friends.</p>
       
       <p>Get the active <a href="https://github.com/atom/atom/blob/v1.9.0-dev/src/pane.coffee#L18">Pane</a>&#39;s active item.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns an pane item <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a>.</li>
   </ul>
@@ -14254,7 +14254,7 @@ and friends.</p>
       
       <p>Get all text editors in the workspace.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns an <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array">Array</a> of <a href="https://github.com/atom/atom/blob/v1.9.0-dev/src/text-editor.coffee#L60">TextEditor</a>s.</li>
   </ul>
@@ -14273,7 +14273,7 @@ and friends.</p>
       
       <p>Get the active item if it is an <a href="https://github.com/atom/atom/blob/v1.9.0-dev/src/text-editor.coffee#L60">TextEditor</a>.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns an <a href="https://github.com/atom/atom/blob/v1.9.0-dev/src/text-editor.coffee#L60">TextEditor</a> or `` if the current active item is not an
   <a href="https://github.com/atom/atom/blob/v1.9.0-dev/src/text-editor.coffee#L60">TextEditor</a>.</li>
@@ -14293,7 +14293,7 @@ and friends.</p>
       
       <p>Get all panes in the workspace.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns an <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array">Array</a> of <a href="https://github.com/atom/atom/blob/v1.9.0-dev/src/pane.coffee#L18">Pane</a>s.</li>
   </ul>
@@ -14312,7 +14312,7 @@ and friends.</p>
       
       <p>Get the active <a href="https://github.com/atom/atom/blob/v1.9.0-dev/src/pane.coffee#L18">Pane</a>.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a <a href="https://github.com/atom/atom/blob/v1.9.0-dev/src/pane.coffee#L18">Pane</a>.</li>
   </ul>
@@ -14364,7 +14364,7 @@ and friends.</p>
   
       <p>Get the first <a href="https://github.com/atom/atom/blob/v1.9.0-dev/src/pane.coffee#L18">Pane</a> with an item for the given URI.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a <a href="https://github.com/atom/atom/blob/v1.9.0-dev/src/pane.coffee#L18">Pane</a> or `` if no pane exists for the given URI.</li>
   </ul>
@@ -14386,7 +14386,7 @@ and friends.</p>
   
       <p>Get the <a href="https://github.com/atom/atom/blob/v1.9.0-dev/src/pane.coffee#L18">Pane</a> containing the given item.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a <a href="https://github.com/atom/atom/blob/v1.9.0-dev/src/pane.coffee#L18">Pane</a> or `` if no pane exists for the given item.</li>
   </ul>
@@ -14428,7 +14428,7 @@ and friends.</p>
   
       <p>Adds a panel item to the bottom of the editor window.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a <a href="https://github.com/atom/atom/blob/v1.9.0-dev/src/panel.coffee#L12">Panel</a></li>
   </ul>
@@ -14470,7 +14470,7 @@ and friends.</p>
   
       <p>Adds a panel item to the left of the editor window.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a <a href="https://github.com/atom/atom/blob/v1.9.0-dev/src/panel.coffee#L12">Panel</a></li>
   </ul>
@@ -14512,7 +14512,7 @@ and friends.</p>
   
       <p>Adds a panel item to the right of the editor window.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a <a href="https://github.com/atom/atom/blob/v1.9.0-dev/src/panel.coffee#L12">Panel</a></li>
   </ul>
@@ -14554,7 +14554,7 @@ and friends.</p>
   
       <p>Adds a panel item to the top of the editor window above the tabs.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a <a href="https://github.com/atom/atom/blob/v1.9.0-dev/src/panel.coffee#L12">Panel</a></li>
   </ul>
@@ -14596,7 +14596,7 @@ and friends.</p>
   
       <p>Adds a panel item to the header.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a <a href="https://github.com/atom/atom/blob/v1.9.0-dev/src/panel.coffee#L12">Panel</a></li>
   </ul>
@@ -14638,7 +14638,7 @@ and friends.</p>
   
       <p>Adds a panel item to the footer.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a <a href="https://github.com/atom/atom/blob/v1.9.0-dev/src/panel.coffee#L12">Panel</a></li>
   </ul>
@@ -14680,7 +14680,7 @@ and friends.</p>
   
       <p>Adds a panel item as a modal dialog.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a <a href="https://github.com/atom/atom/blob/v1.9.0-dev/src/panel.coffee#L12">Panel</a></li>
   </ul>
@@ -14701,7 +14701,7 @@ and friends.</p>
   </ul>
   
       
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li><p>Returns the <a href="https://github.com/atom/atom/blob/v1.9.0-dev/src/panel.coffee#L12">Panel</a> associated with the given item.</p>
   </li>
@@ -14733,7 +14733,7 @@ and friends.</p>
   
       <p>Performs a search across all files in the workspace.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a> with a <code>cancel()</code> method that will cancel all
   of the underlying searches that were started as part of this scan.</li>
@@ -14762,7 +14762,7 @@ and friends.</p>
   
       <p>Performs a replace across all the specified files in the project.</p>
   
-      <p>  <strong>Returns</strong></p>
+      <p>  <em>Returns</em></p>
   <ul>
   <li>Returns a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a>.</li>
   </ul>
