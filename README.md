@@ -21,18 +21,18 @@ in the <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/I
 
 <table width="100%">
     <tr>
-      <td colspan="2"><h4>Properties</h4></td>
+      <td colspan="4"><h4>Properties</h4></td>
     </tr>
   
       <tr>
         <td><b><code>a</code></b></td>
         <td width="8%"><sub><code>Public</code></sub></td>
-        <td width="8%"><sub><code></code></sub></td>
+        <td width="8%"><sub><code>instance</code></sub></td>
         <td width="8%"><sub><code><sub><code><a href="#class-"></a></code></sub></code></sub></td>
       </tr>
   
       <tr>
-        <td colspan="2">
+        <td colspan="4">
   <pre><code>      <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number">{Number}</a> The start/left endpoint of this <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/Interval.coffee#L20">{Interval}</a> 
   </code></pre>      </td>
       </tr>
@@ -40,12 +40,12 @@ in the <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/I
       <tr>
         <td><b><code>b</code></b></td>
         <td width="8%"><sub><code>Public</code></sub></td>
-        <td width="8%"><sub><code></code></sub></td>
+        <td width="8%"><sub><code>instance</code></sub></td>
         <td width="8%"><sub><code><sub><code><a href="#class-"></a></code></sub></code></sub></td>
       </tr>
   
       <tr>
-        <td colspan="2">
+        <td colspan="4">
   <pre><code>      <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number">{Number}</a> The end/right endpoint of this <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/Interval.coffee#L20">{Interval}</a> 
   </code></pre>      </td>
       </tr>
@@ -53,12 +53,12 @@ in the <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/I
       <tr>
         <td><b><code>degenerate</code></b></td>
         <td width="8%"><sub><code>Public</code></sub></td>
-        <td width="8%"><sub><code></code></sub></td>
+        <td width="8%"><sub><code>instance</code></sub></td>
         <td width="8%"><sub><code><sub><code><a href="#class-"></a></code></sub></code></sub></td>
       </tr>
   
       <tr>
-        <td colspan="2">
+        <td colspan="4">
   <pre><code>      <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean">{Boolean}</a> True if this `{Instance}` has the same start and end points 
   </code></pre>      </td>
       </tr>
@@ -66,125 +66,187 @@ in the <a href="https://github.com/venkatperi/line-segment-ops/blob/v0.1.0/lib/I
     <tr>
       <td colspan="2"></td>
     </tr>
-  <tr> <td colspan="2"> <h4>Methods</h4> </td> </tr>
+    <tr>
+      <td colspan="4"><h4>Methods</h4></td>
+    </tr>
   
-  <tr>
-  <td><code>:: <b>constructor(</b>arg1[, arg2]<b>)</b></code></td>
-  <td><code>Public</code></td> </tr>
-  <tr><td colspan="2">
-  
-  
-  
-  </td></tr>
-  
-  <tr>
-  <td><code>:: <b>contains(</b>other<b>)</b></code></td>
-  <td><code>Public</code></td> </tr>
-  <tr><td colspan="2">
+      <tr>
+        <td><code>:: <b>constructor(</b>arg1[, arg2]<b>)</b></code></td>
+        <td width="8%"><sub><code>Public</code></sub></td>
+        <td width="8%"><sub><code>instance</code></sub></td>
+        <td width="8%"><sub><code><sub><code><a href="#class-Interval">Interval</a></code></sub></code></sub></td>
+      </tr>
+      <tr>
+        <td colspan="4">
   
   
-  <em>Returns</em>
+          
+        </td>
+      </tr>
   
-  </td></tr>
-  
-  <tr>
-  <td><code>:: <b>overlaps(</b>other<b>)</b></code></td>
-  <td><code>Public</code></td> </tr>
-  <tr><td colspan="2">
-  
-  
-  <em>Returns</em>
-  
-  </td></tr>
-  
-  <tr>
-  <td><code>:: <b>within(</b>other<b>)</b></code></td>
-  <td><code>Public</code></td> </tr>
-  <tr><td colspan="2">
+      <tr>
+        <td><code>:: <b>contains(</b>other<b>)</b></code></td>
+        <td width="8%"><sub><code>Public</code></sub></td>
+        <td width="8%"><sub><code>instance</code></sub></td>
+        <td width="8%"><sub><code><sub><code><a href="#class-Interval">Interval</a></code></sub></code></sub></td>
+      </tr>
+      <tr>
+        <td colspan="4">
   
   
-  <em>Returns</em>
+          <em>Returns</em>
+          
+        </td>
+      </tr>
   
-  </td></tr>
-  
-  <tr>
-  <td><code>:: <b>touches(</b>other<b>)</b></code></td>
-  <td><code>Public</code></td> </tr>
-  <tr><td colspan="2">
-  
-  
-  <em>Returns</em>
-  
-  </td></tr>
-  
-  <tr>
-  <td><code>:: <b>disjoint(</b>other<b>)</b></code></td>
-  <td><code>Public</code></td> </tr>
-  <tr><td colspan="2">
+      <tr>
+        <td><code>:: <b>overlaps(</b>other<b>)</b></code></td>
+        <td width="8%"><sub><code>Public</code></sub></td>
+        <td width="8%"><sub><code>instance</code></sub></td>
+        <td width="8%"><sub><code><sub><code><a href="#class-Interval">Interval</a></code></sub></code></sub></td>
+      </tr>
+      <tr>
+        <td colspan="4">
   
   
-  <em>Returns</em>
+          <em>Returns</em>
+          
+        </td>
+      </tr>
   
-  </td></tr>
-  
-  <tr>
-  <td><code>:: <b>union(</b>others<b>)</b></code></td>
-  <td><code>Public</code></td> </tr>
-  <tr><td colspan="2">
-  
-  
-  <em>Returns</em>
-  
-  </td></tr>
-  
-  <tr>
-  <td><code>:: <b>intersection(</b>other<b>)</b></code></td>
-  <td><code>Public</code></td> </tr>
-  <tr><td colspan="2">
+      <tr>
+        <td><code>:: <b>within(</b>other<b>)</b></code></td>
+        <td width="8%"><sub><code>Public</code></sub></td>
+        <td width="8%"><sub><code>instance</code></sub></td>
+        <td width="8%"><sub><code><sub><code><a href="#class-Interval">Interval</a></code></sub></code></sub></td>
+      </tr>
+      <tr>
+        <td colspan="4">
   
   
-  <em>Returns</em>
+          <em>Returns</em>
+          
+        </td>
+      </tr>
   
-  </td></tr>
-  
-  <tr>
-  <td><code>:: <b>difference(</b>other<b>)</b></code></td>
-  <td><code>Public</code></td> </tr>
-  <tr><td colspan="2">
-  
-  
-  <em>Returns</em>
-  
-  </td></tr>
-  
-  <tr>
-  <td><code>:: <b>xor(</b>other<b>)</b></code></td>
-  <td><code>Public</code></td> </tr>
-  <tr><td colspan="2">
+      <tr>
+        <td><code>:: <b>touches(</b>other<b>)</b></code></td>
+        <td width="8%"><sub><code>Public</code></sub></td>
+        <td width="8%"><sub><code>instance</code></sub></td>
+        <td width="8%"><sub><code><sub><code><a href="#class-Interval">Interval</a></code></sub></code></sub></td>
+      </tr>
+      <tr>
+        <td colspan="4">
   
   
-  <em>Returns</em>
+          <em>Returns</em>
+          
+        </td>
+      </tr>
   
-  </td></tr>
-  
-  <tr>
-  <td><code>:: <b>equals(</b>other<b>)</b></code></td>
-  <td><code>Public</code></td> </tr>
-  <tr><td colspan="2">
-  
-  
-  <em>Returns</em>
-  
-  </td></tr>
-  
-  <tr>
-  <td><code>:: <b>toString(</b><b>)</b></code></td>
-  <td><code>Public</code></td> </tr>
-  <tr><td colspan="2">
+      <tr>
+        <td><code>:: <b>disjoint(</b>other<b>)</b></code></td>
+        <td width="8%"><sub><code>Public</code></sub></td>
+        <td width="8%"><sub><code>instance</code></sub></td>
+        <td width="8%"><sub><code><sub><code><a href="#class-Interval">Interval</a></code></sub></code></sub></td>
+      </tr>
+      <tr>
+        <td colspan="4">
   
   
+          <em>Returns</em>
+          
+        </td>
+      </tr>
   
-  </td></tr>
+      <tr>
+        <td><code>:: <b>union(</b>others<b>)</b></code></td>
+        <td width="8%"><sub><code>Public</code></sub></td>
+        <td width="8%"><sub><code>instance</code></sub></td>
+        <td width="8%"><sub><code><sub><code><a href="#class-Interval">Interval</a></code></sub></code></sub></td>
+      </tr>
+      <tr>
+        <td colspan="4">
+  
+  
+          <em>Returns</em>
+          
+        </td>
+      </tr>
+  
+      <tr>
+        <td><code>:: <b>intersection(</b>other<b>)</b></code></td>
+        <td width="8%"><sub><code>Public</code></sub></td>
+        <td width="8%"><sub><code>instance</code></sub></td>
+        <td width="8%"><sub><code><sub><code><a href="#class-Interval">Interval</a></code></sub></code></sub></td>
+      </tr>
+      <tr>
+        <td colspan="4">
+  
+  
+          <em>Returns</em>
+          
+        </td>
+      </tr>
+  
+      <tr>
+        <td><code>:: <b>difference(</b>other<b>)</b></code></td>
+        <td width="8%"><sub><code>Public</code></sub></td>
+        <td width="8%"><sub><code>instance</code></sub></td>
+        <td width="8%"><sub><code><sub><code><a href="#class-Interval">Interval</a></code></sub></code></sub></td>
+      </tr>
+      <tr>
+        <td colspan="4">
+  
+  
+          <em>Returns</em>
+          
+        </td>
+      </tr>
+  
+      <tr>
+        <td><code>:: <b>xor(</b>other<b>)</b></code></td>
+        <td width="8%"><sub><code>Public</code></sub></td>
+        <td width="8%"><sub><code>instance</code></sub></td>
+        <td width="8%"><sub><code><sub><code><a href="#class-Interval">Interval</a></code></sub></code></sub></td>
+      </tr>
+      <tr>
+        <td colspan="4">
+  
+  
+          <em>Returns</em>
+          
+        </td>
+      </tr>
+  
+      <tr>
+        <td><code>:: <b>equals(</b>other<b>)</b></code></td>
+        <td width="8%"><sub><code>Public</code></sub></td>
+        <td width="8%"><sub><code>instance</code></sub></td>
+        <td width="8%"><sub><code><sub><code><a href="#class-Interval">Interval</a></code></sub></code></sub></td>
+      </tr>
+      <tr>
+        <td colspan="4">
+  
+  
+          <em>Returns</em>
+          
+        </td>
+      </tr>
+  
+      <tr>
+        <td><code>:: <b>toString(</b><b>)</b></code></td>
+        <td width="8%"><sub><code>Public</code></sub></td>
+        <td width="8%"><sub><code>instance</code></sub></td>
+        <td width="8%"><sub><code><sub><code><a href="#class-Interval">Interval</a></code></sub></code></sub></td>
+      </tr>
+      <tr>
+        <td colspan="4">
+  
+  
+          
+        </td>
+      </tr>
   
 </table>
 
